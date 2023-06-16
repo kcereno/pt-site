@@ -6,10 +6,10 @@ interface PropsI {
 
 const Layout = ({ children }: PropsI) => {
   return (
-    <div>
-      <h1>Nav</h1>
-      <main>{children}</main>
-      <h1>Footer</h1>
+    <div className="flex flex-col min-h-screen">
+      <h1 className="bg-red-400">Nav</h1>
+      <main className="flex-grow bg-blue-400">{children}</main>
+      <h1 className="py-4 bg-gray-400">Footer</h1>
     </div>
   );
 };
