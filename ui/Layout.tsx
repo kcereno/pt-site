@@ -5,7 +5,13 @@ interface PropsI {
 }
 
 const Layout = ({ children }: PropsI) => {
-  return <div>{children}</div>;
+  return (
+    <div>
+      <h1>Nav</h1>
+      <main>{children}</main>
+      <h1>Footer</h1>
+    </div>
+  );
 };
 
 export default Layout;
