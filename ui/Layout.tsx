@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Nav from '@/components/Nav';
 import React from 'react';
 
@@ -13,7 +14,7 @@ const Layout = ({ children }: PropsI) => {
     >
       <Nav />
       <main className="flex-grow">{children}</main>
-      <h1 className="py-4 bg-gray-400">Footer</h1>
+      <Footer />
     </div>
   );
 };
