@@ -4,7 +4,7 @@ const FeaturesSection = () => {
   return (
     <section
       id="features"
-      className="container mt-20"
+      className="mt-20 "
     >
       <div className="flex flex-col gap-10 text-center">
         <div className="">
