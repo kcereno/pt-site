@@ -1,5 +1,10 @@
+import HeroSection from '@/sections/HeroSection';
 import Image from 'next/image';
 
 export default function Home() {
-  return <main className="">test</main>;
+  return (
+    <main className="">
+      <HeroSection />
+    </main>
+  );
 }
