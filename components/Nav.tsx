@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { IoLocationSharp, IoCallSharp } from 'react-icons/io5';
+
 const Nav = () => {
+  // Classes
+  const navDetail = 'flex gap-2 align-center';
+  const navDetailIcon = 'my-auto fill-secondary';
+
   const dropdown = (
-    <div className="dropdown">
+    <div className="z-10 dropdown dropdown-end">
       <label
         tabIndex={0}
         className="btn btn-ghost lg:hidden"
@@ -24,24 +30,28 @@ const Nav = () => {
       </label>
       <ul
         tabIndex={0}
-        className="p-2 mt-3 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+        className="p-2 mt-3 shadow w-80 w-100 menu menu-lg dropdown-content bg-base-100 rounded-box"
       >
         <li>
-          <a>Item 1</a>
+          <a>About</a>
         </li>
         <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li>
-              <a>Submenu 1</a>
-            </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
-          </ul>
+          <a href="">Our Team</a>
         </li>
         <li>
-          <a>Item 3</a>
+          <a>Services</a>
+        </li>
+        <li>
+          <a>New Patient Forms</a>
+        </li>
+        <li>
+          <a>Insurance Accepted</a>
+        </li>
+        <li>
+          <a>Testimonials</a>
+        </li>
+        <li>
+          <a>Contact Us</a>
         </li>
       </ul>
     </div>
@@ -73,39 +83,42 @@ const Nav = () => {
 
   const navStart = (
     <>
-      <p>Telephone Icon</p>
-    </>
-  );
-
-  const navCenter = (
-    <>
       <a className="text-xl normal-case btn btn-ghost">ProCare PT</a>
     </>
   );
 
-  const navEnd = (
-    <>
-      {dropdown}
-      <div className="flex-none">
-        <div className="">row 1</div>
-        <div className="">row 2</div>
-      </div>
-    </>
-  );
+  const navCenter = <></>;
+
+  const navEnd = <>{dropdown}</>;
 
   return (
-    <>
+    <div className="pt-4 ">
+      {/* Details Bar */}
       <div className="">
-        <div className="">icon location</div>
-        <div className="">icon phone number</div>
-        <div className="">icon Contact Us button</div>
+        <div className="flex flex-col gap-2 mx-6 ">
+          <div className={navDetail}>
+            <IoLocationSharp className={navDetailIcon} />
+            <span>123 fake street</span>
+          </div>
+          <div className={navDetail}>
+            <IoCallSharp className={navDetailIcon} />
+            <span>212.414.2144</span>
+          </div>
+        </div>
+        <div className="mx-4 mt-4 text-center">
+          <button className="btn btn-block btn-primary">
+            Request Appointment
+          </button>
+        </div>
       </div>
-      <nav className="max-w-[1100px] mx-auto navbar bg-base-100">
+
+      {/* Nav Bar */}
+      <nav className="mx-auto navbar bg-base-100">
         <div className="navbar-start">{navStart}</div>
         <div className="navbar-center ">{navCenter}</div>
         <div className="navbar-end">{navEnd}</div>
       </nav>
-    </>
+    </div>
   );
 };
 

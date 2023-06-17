@@ -7,9 +7,12 @@ interface PropsI {
 
 const Layout = ({ children }: PropsI) => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div
+      className="flex flex-col min-h-screen mx-auto"
+      data-theme="light"
+    >
       <Nav />
-      <main className="flex-grow bg-blue-400">{children}</main>
+      <main className="flex-grow">{children}</main>
       <h1 className="py-4 bg-gray-400">Footer</h1>
     </div>
   );
