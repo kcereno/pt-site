@@ -4,7 +4,8 @@ const HeroSection = () => {
   const bgImageLink = 'http://via.placeholder.com/400x400';
 
   return (
-    <div
+    <section
+      id="hero"
       className="min-h-[500px] hero"
       style={{ backgroundImage: `url(${bgImageLink})` }}
     >
@@ -20,7 +21,7 @@ const HeroSection = () => {
           <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

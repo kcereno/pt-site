@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .container {
-  @apply lg:max-w-[1100px] lg:mx-auto mx-4;
+  @apply lg:max-w-[1100px] lg:mx-auto mx-4 w-auto;
+}
+
+h3 {
+  @apply text-xl font-bold;
 }
