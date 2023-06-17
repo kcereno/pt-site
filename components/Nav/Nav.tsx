@@ -1,11 +1,8 @@
 import React from 'react';
-
-import { IoLocationSharp, IoCallSharp } from 'react-icons/io5';
+import NavDetails from './NavDetails';
 
 const Nav = () => {
-  // Classes
-  const navDetail = 'flex gap-2 align-center';
-  const navDetailIcon = 'my-auto ';
+  // Components
 
   const dropdown = (
     <div className="z-10 dropdown dropdown-end">
@@ -92,25 +89,8 @@ const Nav = () => {
   const navEnd = <>{dropdown}</>;
 
   return (
-    <div className="pt-4 ">
-      {/* Details Bar */}
-      <div className="">
-        <div className="flex flex-col gap-2 mx-6 ">
-          <div className={navDetail}>
-            <IoLocationSharp className={navDetailIcon} />
-            <span>123 fake street</span>
-          </div>
-          <div className={navDetail}>
-            <IoCallSharp className={navDetailIcon} />
-            <span>212.414.2144</span>
-          </div>
-        </div>
-        <div className="mx-4 mt-4 text-center">
-          <button className="btn btn-block btn-neutral">
-            Request Appointment
-          </button>
-        </div>
-      </div>
+    <div className="container pt-4">
+      <NavDetails />
 
       {/* Nav Bar */}
       <nav className="mx-auto navbar bg-base-100">

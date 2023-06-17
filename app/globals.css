@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-  @apply lg:max-w-[1100px] lg:mx-auto mx-4 w-auto;
+  @apply lg:max-w-[1300px] lg:mx-auto  w-screen mx-auto;
 }
 
 h1 {

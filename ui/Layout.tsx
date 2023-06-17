@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer';
-import Nav from '@/components/Nav';
+import Nav from '@/components/Nav/Nav';
 import React from 'react';
 
 interface PropsI {
