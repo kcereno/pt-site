@@ -5,7 +5,7 @@ import { IoLocationSharp, IoCallSharp } from 'react-icons/io5';
 const Nav = () => {
   // Classes
   const navDetail = 'flex gap-2 align-center';
-  const navDetailIcon = 'my-auto fill-secondary';
+  const navDetailIcon = 'my-auto ';
 
   const dropdown = (
     <div className="z-10 dropdown dropdown-end">
@@ -83,7 +83,7 @@ const Nav = () => {
 
   const navStart = (
     <>
-      <a className="text-xl normal-case btn btn-ghost">ProCare PT</a>
+      <a className="text-xl normal-case btn btn-ghost">PT Clinic Name</a>
     </>
   );
 
@@ -106,7 +106,7 @@ const Nav = () => {
           </div>
         </div>
         <div className="mx-4 mt-4 text-center">
-          <button className="btn btn-block btn-primary">
+          <button className="btn btn-block btn-neutral">
             Request Appointment
           </button>
         </div>

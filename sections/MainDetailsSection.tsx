@@ -2,8 +2,11 @@ import React from 'react';
 
 const MainDetailsSection = () => {
   return (
-    <section id="main-details">
-      <h1>Pro Care Physical Therapy Group</h1>
+    <section
+      id="main-details"
+      className="mt-10"
+    >
+      <h1>PT Clinic Name</h1>
       <p className="mt-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
         molestias! Neque suscipit accusamus, laborum sed magnam velit laudantium
