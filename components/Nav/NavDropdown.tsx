@@ -24,7 +24,7 @@ const NavDropdown = () => {
       </label>
       <ul
         tabIndex={0}
-        className="w-auto p-2 mt-4 shadow menu menu-lg dropdown-content bg-base-100 rounded-box"
+        className="w-auto p-2 shadow mt-4ch menu menu-lg dropdown-content bg-base-100 rounded-box"
       >
         <li>
           <a>About</a>
