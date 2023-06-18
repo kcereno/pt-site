@@ -17,3 +17,7 @@ h1 {
 h3 {
   @apply text-xl font-bold;
 }
+
+.container {
+  @apply lg:max-w-[1100px] mx-auto;
+}

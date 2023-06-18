@@ -5,9 +5,11 @@ const NavDetails = () => {
   const iconClass = 'h-8 w-8 ';
   const label = 'font-bold';
   const detail = 'text-sm';
+  const dividerClass =
+    ' mt-2 divider divider-vertical lg:divider-horizontal lg:mt-0  ';
 
   return (
-    <div className="text-gray-400">
+    <div className="text-gray-400 lg:flex lg:justify-between">
       {/* Location */}
       <div className="flex flex-col">
         <div className="flex gap-2">
@@ -22,7 +24,7 @@ const NavDetails = () => {
           </div>
         </div>
       </div>
-      <div className="mt-2 divider "></div>
+      <div className={dividerClass}></div>
       {/* Phone */}
       <div className="flex flex-col">
         <div className="flex gap-2">
@@ -37,7 +39,7 @@ const NavDetails = () => {
           </div>
         </div>
       </div>
-      <div className="mt-2 divider"></div>
+      <div className={dividerClass}></div>
       {/* Email */}
       <div className="flex flex-col">
         <div className="flex gap-2">
@@ -53,7 +55,7 @@ const NavDetails = () => {
           </div>
         </div>
       </div>
-      <div className="mt-2 divider"></div>
+      <div className={dividerClass}></div>
       {/* Hours */}
       <div className="flex flex-col">
         <div className="flex gap-2">
