@@ -5,6 +5,7 @@ const Nav = () => {
   return (
     <div className="container pt-4">
       <NavDetails />
+      <div className="my-2 divider"></div>
       <Navbar />
     </div>
   );
