@@ -24,7 +24,7 @@ const NavDropdown = () => {
       </label>
       <ul
         tabIndex={0}
-        className="p-2 mt-3 shadow w-80 w-100 menu menu-lg dropdown-content bg-base-100 rounded-box"
+        className="w-auto p-2 mt-3 shadow menu menu-lg dropdown-content bg-base-100 rounded-box"
       >
         <li>
           <a>About</a>
@@ -35,14 +35,23 @@ const NavDropdown = () => {
         <li>
           <a>Services</a>
         </li>
-        <li>
-          <a>New Patient Forms</a>
-        </li>
+
         <li>
           <a>Insurance Accepted</a>
         </li>
         <li>
           <a>Testimonials</a>
+        </li>
+        <li>
+          <a>Resources</a>
+          <ul className="p-2">
+            <li>
+              <a>Insurance Accepted</a>
+            </li>
+            <li>
+              <a>New Patient Forms</a>
+            </li>
+          </ul>
         </li>
         <li>
           <a>Contact Us</a>

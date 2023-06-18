@@ -26,9 +26,6 @@ const NavMenu = () => {
             <li>
               <a>New Patient Forms</a>
             </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
           </ul>
         </details>
       </li>

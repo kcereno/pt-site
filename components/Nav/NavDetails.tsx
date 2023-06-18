@@ -10,7 +10,7 @@ const NavDetails = () => {
   const navDetailIcon = 'my-auto';
 
   return (
-    <div className="flex flex-col justify-between sm:flex-row sm:justify-center md:justify-end ">
+    <div className="flex flex-col justify-between sm:flex-row sm:justify-center md:justify-end md:gap-10">
       <div className="flex flex-col gap-2 mx-6 xs:flex-row xs:mx-0 xs:justify-around sm:flex-col md:flex-row md:gap-10 ">
         <div className={navDetail}>
           <IoLocationSharp className={navDetailIcon} />
