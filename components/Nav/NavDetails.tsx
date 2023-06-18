@@ -1,30 +1,73 @@
 import React from 'react';
-import { IoLocationSharp, IoCallSharp } from 'react-icons/io5';
+import { FaHome, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 
 const NavDetails = () => {
-  const address = '123 Fake Street New York , NY 11109';
-  const phoneNumber = '(212) 414-2144';
-
-  // Classes
-  const navDetail = 'flex gap-2 align-center text-sm my-auto';
-  const navDetailIcon = 'my-auto';
+  const iconClass = 'h-8 w-8 ';
+  const label = 'font-bold';
+  const detail = 'text-sm';
 
   return (
-    <div className="flex flex-col justify-between sm:flex-row sm:justify-center md:justify-end md:gap-10">
-      <div className="flex flex-col gap-2 mx-6 xs:flex-row xs:mx-0 xs:justify-around sm:flex-col md:flex-row md:gap-10 ">
-        <div className={navDetail}>
-          <IoLocationSharp className={navDetailIcon} />
-          <span>{address}</span>
-        </div>
-        <div className={navDetail}>
-          <IoCallSharp className={navDetailIcon} />
-          <span>{phoneNumber}</span>
+    <div className="text-gray-400">
+      {/* Location */}
+      <div className="flex flex-col ">
+        <div className="flex">
+          <div className="">
+            <div className="p-3">
+              <FaHome className={iconClass} />
+            </div>
+          </div>
+          <div className="flex flex-col justify-center">
+            <p className={label}>Visit Our Location</p>
+            <p className={detail}>123 fake street ny</p>
+          </div>
         </div>
       </div>
-      <div className="mx-4 my-auto mt-4 text-center sm:mt-0">
-        <button className="btn btn-block btn-neutral md:btn-md ">
-          Request Appointment
-        </button>
+      <div className="mt-2 divider "></div>
+      {/* Phone */}
+      <div className="flex flex-col">
+        <div className="flex">
+          <div className="">
+            <div className="p-3">
+              <FaPhone className={iconClass} />
+            </div>
+          </div>
+          <div className="flex flex-col justify-center">
+            <p className={label}>Give Us a Call</p>
+            <p className={detail}>(212) 123-4567</p>
+          </div>
+        </div>
+      </div>
+      <div className="mt-2 divider"></div>
+      {/* Email */}
+      <div className="flex flex-col">
+        <div className="flex">
+          <div className="">
+            <div className="p-3">
+              <FaEnvelope className={iconClass} />
+            </div>
+          </div>
+
+          <div className="flex flex-col">
+            <p className={label}>Send Us a Message</p>
+            <p className={detail}>email@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div className="mt-2 divider"></div>
+      {/* Hours */}
+      <div className="flex flex-col">
+        <div className="flex">
+          <div className="">
+            <div className="p-3">
+              <FaClock className={iconClass} />
+            </div>
+          </div>
+          <div className="divider "></div>
+          <div className="flex flex-col justify-center">
+            <p className={label}>Opening Hours</p>
+            <p className={detail}>Mon - Friday: 8AM - 5PM</p>
+          </div>
+        </div>
       </div>
     </div>
   );

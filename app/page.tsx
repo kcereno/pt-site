@@ -6,12 +6,12 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="">
-      <HeroSection />
+      {/* <HeroSection />
       <div className="container">
         <FeaturesSection />
         <div className="divider"></div>
         <MainDetailsSection />
-      </div>
+      </div> */}
     </main>
   );
 }
