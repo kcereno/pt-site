@@ -23,15 +23,14 @@ const NavDrawer = () => {
           htmlFor="my-drawer"
           className="drawer-overlay"
         ></label>
-        <ul className="h-full p-4 menu w-80 bg-base-200 text-base-content">
+        <div className="flex h-full p-4 menu w-80 bg-base-200 text-base-content">
           {/* Sidebar content here */}
-          <li>
-            <a>Sidebar Item 1</a>
-          </li>
-          <li>
-            <a>Sidebar Item 2</a>
-          </li>
-        </ul>
+          <ul className="my-auto">
+            <li>
+              <a>About</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
