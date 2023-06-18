@@ -9,9 +9,9 @@ const NavDetails = () => {
   return (
     <div className="text-gray-400">
       {/* Location */}
-      <div className="flex flex-col ">
-        <div className="flex">
-          <div className="">
+      <div className="flex flex-col">
+        <div className="flex gap-2">
+          <div>
             <div className="p-3">
               <FaHome className={iconClass} />
             </div>
@@ -25,8 +25,8 @@ const NavDetails = () => {
       <div className="mt-2 divider "></div>
       {/* Phone */}
       <div className="flex flex-col">
-        <div className="flex">
-          <div className="">
+        <div className="flex gap-2">
+          <div>
             <div className="p-3">
               <FaPhone className={iconClass} />
             </div>
@@ -40,8 +40,8 @@ const NavDetails = () => {
       <div className="mt-2 divider"></div>
       {/* Email */}
       <div className="flex flex-col">
-        <div className="flex">
-          <div className="">
+        <div className="flex gap-2">
+          <div>
             <div className="p-3">
               <FaEnvelope className={iconClass} />
             </div>
@@ -56,8 +56,8 @@ const NavDetails = () => {
       <div className="mt-2 divider"></div>
       {/* Hours */}
       <div className="flex flex-col">
-        <div className="flex">
-          <div className="">
+        <div className="flex gap-2">
+          <div>
             <div className="p-3">
               <FaClock className={iconClass} />
             </div>
