@@ -2,6 +2,8 @@ import React from 'react';
 
 const HeroSection = () => {
   const bgImageLink = 'http://via.placeholder.com/400x400';
+  const headerText = 'Restore. Rebuild. Renew.';
+  const subheaderText = "Astoria's Premier Physical Therapy Clinic since 2001";
 
   return (
     <section
@@ -12,13 +14,8 @@ const HeroSection = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="text-center hero-content text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Lorem, ipsum.</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button className="btn btn-neutral">Get Started</button>
+          <h1 className="mb-5 text-5xl font-bold">{headerText}</h1>
+          <p className="mb-5">{subheaderText}</p>
         </div>
       </div>
     </section>
