@@ -1,6 +1,7 @@
 import ServicesSection from '@/sections/Home/ServicesSection';
 import HeroSection from '@/sections/Home/HeroSection';
 import AboutUsSection from '@/sections/Home/AboutUsSection';
+import AdvantagesSection from '@/sections/Home/AdvantagesSection';
 
 export default function Home() {
   return (
@@ -8,9 +9,9 @@ export default function Home() {
       <HeroSection />
 
       <ServicesSection />
-      <div className="flex">
-        <AboutUsSection />
-      </div>
+
+      <AboutUsSection />
+      <AdvantagesSection />
     </main>
   );
 }
