@@ -1,3 +1,4 @@
+import ClientTestimonialCarousel from '@/components/ClientTestimonialCarousel/ClientTestimonialCarousel';
 import React from 'react';
 
 const ClientTestimonials = () => {
@@ -9,6 +10,9 @@ const ClientTestimonials = () => {
             <h2>
               Client <span className="bold-heading">Testimonials</span>
             </h2>
+            <div className="mt-10">
+              <ClientTestimonialCarousel />
+            </div>
           </div>
         </div>
       </div>
