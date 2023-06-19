@@ -3,10 +3,10 @@ import { FaHome, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 
 const NavDetails = () => {
   const iconClass = 'h-8 w-8 ';
-  const label = 'font-bold';
+  const label = 'font-bold text-md';
   const detail = 'text-sm';
   const dividerClass =
-    ' mt-2 divider divider-vertical lg:divider-horizontal lg:mt-0  ';
+    ' mt-0 divider divider-vertical lg:divider-horizontal   ';
 
   return (
     <div className="mb-5 text-gray-400 lg:flex lg:justify-between">
@@ -20,7 +20,7 @@ const NavDetails = () => {
           </div>
           <div className="flex flex-col justify-center">
             <p className={label}>Visit Our Location</p>
-            <p className={detail}>123 fake street ny</p>
+            <p className={detail}>123 45th St. Astoria NY</p>
           </div>
         </div>
       </div>

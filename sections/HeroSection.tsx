@@ -10,17 +10,13 @@ const HeroSection = () => {
     <section
       id="hero"
       className="bg-cover h-96 hero bg-hero-default md:bg-hero-horizontal md:h-[700px] "
-      // style={{
-      //   backgroundImage: `url(
-      //   ${verticalImage.src}
-      // )`,
-      // }}
     >
       <div className="hero-overlay bg-opacity-70 "></div>
       <div className="text-center hero-content text-neutral-content">
         <div className="">
           <h1 className="mb-5 ">{headerText}</h1>
           <p className="mb-5 hero-subheader">{subheaderText}</p>
+          <button className="btn btn-md">Learn More</button>
         </div>
       </div>
     </section>
