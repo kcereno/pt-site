@@ -1,36 +1,30 @@
-import React from 'react';
+import Link from 'next/link';
 
 const NavMenu = () => {
   return (
-    <ul className="flex-1 hidden px-1 menu menu-horizontal lg:flex md:gap-0">
+    <ul className="px-1 menu menu-horizontal">
       <li>
-        <a>About</a>
-      </li>
-      <li>
-        <a href="">Our Team</a>
-      </li>
-      <li>
-        <a>Services</a>
+        <Link href="/">About Us</Link>
       </li>
 
       <li>
-        <a>Testimonials</a>
+        <Link href="/">Services</Link>
       </li>
       <li tabIndex={0}>
         <details>
           <summary>Resources</summary>
           <ul className="p-2">
             <li>
-              <a>Insurance Accepted</a>
+              <Link href="/">Insurance</Link>
             </li>
             <li>
-              <a>New Patient Forms</a>
+              <Link href="/">New Patient Forms</Link>
             </li>
           </ul>
         </details>
       </li>
       <li>
-        <a>Contact</a>
+        <Link href="/">Contact Us</Link>
       </li>
     </ul>
   );

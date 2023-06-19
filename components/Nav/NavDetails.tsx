@@ -9,7 +9,7 @@ const NavDetails = () => {
     ' mt-2 divider divider-vertical lg:divider-horizontal lg:mt-0  ';
 
   return (
-    <div className="text-gray-400 lg:flex lg:justify-between">
+    <div className="mb-5 text-gray-400 lg:flex lg:justify-between">
       {/* Location */}
       <div className="flex flex-col">
         <div className="flex gap-2">

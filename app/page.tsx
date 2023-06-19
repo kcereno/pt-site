@@ -6,8 +6,8 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="">
-      {/* <HeroSection />
-      <div className="container">
+      <HeroSection />
+      {/* <div className="container">
         <FeaturesSection />
         <div className="divider"></div>
         <MainDetailsSection />
