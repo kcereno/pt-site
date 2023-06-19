@@ -26,25 +26,28 @@ const ServicesSection = () => {
   return (
     <section
       id="features"
-      className="container my-20 "
+      className="min-w-full"
     >
-      <div className="flex flex-col lg:flex-row lg:gap-10">
-        <div className="flex-1">
-          <h2>We Offer Various Services</h2>
-          <p className="mt-5">
-            We are proud to offer a wide range of comprehensive services to meet
-            the needs of adults, seniors, and pediatric patients. Our team of
-            professional caregivers specialize in providing personalized medical
-            care, rehabilitative therapy and companion assistance.
-          </p>
-          <button className="mt-5 btn">See All Services</button>
+      <div className="section-container">
+        <div className="flex flex-col mx-4 md:flex-row md:gap-10 ">
+          <div className="flex-1">
+            <h2>We Offer Various Services</h2>
+            <p className="mt-5">
+              We are proud to offer a wide range of comprehensive services to
+              meet the needs of adults, seniors, and pediatric patients. Our
+              team of professional caregivers specialize in providing
+              personalized medical care, rehabilitative therapy and companion
+              assistance.
+            </p>
+            <button className="mt-5 btn">See All Services</button>
+          </div>
+          {services.map((service) => (
+            <ServiceCard
+              key={service.title}
+              {...service}
+            />
+          ))}
         </div>
-        {services.map((service) => (
-          <ServiceCard
-            key={service.title}
-            {...service}
-          />
-        ))}
       </div>
     </section>
   );

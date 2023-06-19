@@ -25,3 +25,7 @@ h3 {
 .container {
   @apply lg:max-w-[1100px] mx-auto;
 }
+
+.section-container {
+  @apply py-20 mx-4 lg:max-w-[1300px] lg:mx-auto;
+}
