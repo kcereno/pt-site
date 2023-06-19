@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const NavMenu = () => {
   return (
-    <ul className="px-1 menu menu-horizontal">
+    <ul className="px-1 menu lg:menu-lg menu-horizontal">
       <li>
         <Link href="/">About Us</Link>
       </li>

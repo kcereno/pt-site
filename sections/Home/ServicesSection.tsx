@@ -1,5 +1,4 @@
 import ServiceCard from '@/components/ServiceCard';
-import React from 'react';
 
 const ServicesSection = () => {
   const services = [

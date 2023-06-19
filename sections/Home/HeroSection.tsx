@@ -1,10 +1,12 @@
 import React from 'react';
-import verticalImage from '../public/assets/images/hero/hero-vertical.jpg';
 
 const HeroSection = () => {
-  const bgImageLink = 'http://via.placeholder.com/400x400';
   const headerText = 'Restore. Rebuild. Renew.';
   const subheaderText = "Astoria's Premier Physical Therapy Clinic since 2001";
+
+  const DUMMY_HEADER = 'Lorem, ipsum dolor';
+  const DUMMY_SUBHEADER =
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit.';
 
   return (
     <section
@@ -14,8 +16,8 @@ const HeroSection = () => {
       <div className="hero-overlay bg-opacity-70 "></div>
       <div className="text-center hero-content text-neutral-content">
         <div className="">
-          <h1 className="mb-5 ">{headerText}</h1>
-          <p className="mb-5 hero-subheader">{subheaderText}</p>
+          <h1 className="mb-5 ">{DUMMY_HEADER}</h1>
+          <p className="mb-5 hero-subheader">{DUMMY_SUBHEADER}</p>
           <button className="btn btn-md">Learn More</button>
         </div>
       </div>
