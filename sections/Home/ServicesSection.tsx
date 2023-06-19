@@ -26,7 +26,7 @@ const ServicesSection = () => {
   return (
     <section
       id="features"
-      className="mt-20 "
+      className="container my-20 "
     >
       <div className="flex flex-col lg:flex-row lg:gap-10">
         <div className="flex-1">
