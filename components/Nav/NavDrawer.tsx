@@ -12,7 +12,7 @@ const NavDrawer = () => {
   };
 
   return (
-    <div className="drawer drawer-end">
+    <div className="z-10 drawer drawer-end">
       <input
         id="mobile-nav-drawer"
         type="checkbox"
@@ -32,7 +32,7 @@ const NavDrawer = () => {
           htmlFor="my-drawer"
           className="drawer-overlay"
         ></label>
-        <div className="flex h-full p-4 menu w-80 bg-base-200 text-base-content">
+        <div className="flex w-4/5 h-full p-4 menu bg-base-200 text-base-content">
           {/* Sidebar content here */}
           <div className="absolute right-1">
             <button

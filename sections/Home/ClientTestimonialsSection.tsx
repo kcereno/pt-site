@@ -1,7 +1,7 @@
-import ClientTestimonialCarousel from '@/components/ClientTestimonialCarousel/ClientTestimonialCarousel';
+import ClientTestimonials from '@/components/ClientTestimonials/ClientTestimonials';
 import React from 'react';
 
-const ClientTestimonials = () => {
+const ClientTestimonialsSection = () => {
   return (
     <section className="min-w-full">
       <div className="section-container">
@@ -10,8 +10,8 @@ const ClientTestimonials = () => {
             <h2>
               Client <span className="bold-heading">Testimonials</span>
             </h2>
-            <div className="mt-10">
-              <ClientTestimonialCarousel />
+            <div className="mt-10 ">
+              <ClientTestimonials />
             </div>
           </div>
         </div>
@@ -20,4 +20,4 @@ const ClientTestimonials = () => {
   );
 };
 
-export default ClientTestimonials;
+export default ClientTestimonialsSection;

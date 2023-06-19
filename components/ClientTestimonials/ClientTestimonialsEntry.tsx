@@ -7,13 +7,13 @@ interface Props {
   person: string;
 }
 
-const ClientTestimonialCarouselEntry = ({ id, icon, text, person }: Props) => {
+const ClientTestimonialsEntry = ({ id, icon, text, person }: Props) => {
   return (
     <div
       id={id}
-      className="w-full carousel-item"
+      className="w-full lg:flex-1 carousel-item"
     >
-      <div className="w-11/12 h-64 mx-auto card bg-base-200 text-base-200-content">
+      <div className="h-auto mx-auto card bg-base-200 text-base-200-content">
         <div className="justify-center card-body ">
           <div className="flex gap-5 align-center">
             {icon}
@@ -30,4 +30,4 @@ const ClientTestimonialCarouselEntry = ({ id, icon, text, person }: Props) => {
   );
 };
 
-export default ClientTestimonialCarouselEntry;
+export default ClientTestimonialsEntry;
