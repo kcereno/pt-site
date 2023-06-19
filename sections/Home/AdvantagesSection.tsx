@@ -47,7 +47,9 @@ const AdvantagesSection = () => {
     <section className="min-w-full">
       <div className="section-container">
         <div className="mx-4">
-          <h2>Our Advantages</h2>
+          <h2>
+            Our <span className="bold-heading">Advantages</span>
+          </h2>
 
           <div className="flex flex-col gap-5 mt-10 md:grid md:grid-cols-3 md:gap-10">
             {advantages.map((advantage, index) => (

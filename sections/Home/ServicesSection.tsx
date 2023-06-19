@@ -31,7 +31,9 @@ const ServicesSection = () => {
       <div className="section-container ">
         <div className="flex flex-col mx-4 md:flex-row md:gap-10 ">
           <div className="flex-1">
-            <h2>We Offer Various Services</h2>
+            <h2>
+              We Offer Various <span className="bold-heading">Services</span>
+            </h2>
             <p className="mt-5">
               We are proud to offer a wide range of comprehensive services to
               meet the needs of adults, seniors, and pediatric patients. Our

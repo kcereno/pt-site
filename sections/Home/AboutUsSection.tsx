@@ -5,7 +5,9 @@ const AboutUs = () => {
     <section className="min-w-full bg-base-200">
       <div className="section-container">
         <div className="mx-4">
-          <h2>About Us</h2>
+          <h2>
+            About <span className="bold-heading">Us</span>
+          </h2>
           <div className="flex flex-col md:flex-row md:gap-5 md:mt-10 ">
             <div className="flex-1">
               <img
@@ -15,7 +17,7 @@ const AboutUs = () => {
               />
             </div>
             <div className="flex-1 my-auto">
-              <p className="py-2 text-lg">
+              <p className="py-2 text-lg lg:text-xl">
                 Our team of highly trained professionals uses the latest healing
                 technologies to restore you to pain-free health, quickly and
                 easily. We thoroughly evaluate & treat all of the contributing
