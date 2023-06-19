@@ -28,7 +28,7 @@ const ServicesSection = () => {
       id="features"
       className="min-w-full"
     >
-      <div className="section-container">
+      <div className="section-container ">
         <div className="flex flex-col mx-4 md:flex-row md:gap-10 ">
           <div className="flex-1">
             <h2>We Offer Various Services</h2>
