@@ -27,7 +27,7 @@ h3 {
 }
 
 .section-container {
-  @apply py-20 mx-4 lg:max-w-[1300px] lg:mx-auto;
+  @apply py-28 mx-4 lg:max-w-[1300px] lg:mx-auto;
 }
 
 .bold-heading {
