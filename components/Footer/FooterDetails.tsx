@@ -4,7 +4,7 @@ import NavDetailEntry from '../Nav/NavDetailEntry';
 const FooterDetails = () => {
   return (
     <>
-      <div className="flex flex-col justify-between lg:flex-row">
+      <div className="flex flex-col justify-between lg:flex-row ">
         <NavDetailEntry
           icon={<FaHome className="w-8 h-8 " />}
           label="Visit Our Location"
@@ -23,11 +23,6 @@ const FooterDetails = () => {
           detail="123@gmail.com"
         />
         <div className="mt-0 divider divider-vertical lg:hidden"></div>
-        <NavDetailEntry
-          icon={<FaClock className="w-8 h-8 " />}
-          label="Opening Hours"
-          detail="Mon - Friday: 8AM - 5PM"
-        />
       </div>
     </>
   );
