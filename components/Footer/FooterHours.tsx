@@ -12,15 +12,17 @@ const FooterHours = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col w-auto gap-1">
       {days.map(({ day, hours }, index) => (
         <div
-          className="grid grid-cols-3"
+          className="flex"
           key={index}
         >
-          <div className="flex flex-grow font-bold">{day}</div>
-          <div className="flex flex-grow">{hours}</div>
-          <div className="flex flex-grow"></div>
+          <div className="font-bold w-36">{day}</div>
+          <div className={`${hours === 'CLOSED' ? 'font-bold' : ''}`}>
+            {hours}
+          </div>
+          {/* <div className="lg:hidden"></div> */}
         </div>
       ))}
     </div>
