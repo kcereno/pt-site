@@ -1,18 +1,14 @@
 import React from 'react';
+import FooterDetails from './Footer/FooterDetails';
 
 const Footer = () => {
   return (
-    <footer className="p-4 mt-20 footer footer-center bg-base-300 text-base-content">
-      <div className="flex flex-col gap-10 py-10">
-        <div className="">123 fakestreet</div>
+    <footer className="py-10 bg-base-300 text-base-content ">
+      <div className="mx-2 lg:max-w-[1300px] lg:mx-auto">
         <div className="">
-          <p>Open Monday to Friday</p>
-          <p>7am to 8pm</p>
+          <FooterDetails />
         </div>
-        <div className="">
-          <p>email</p>
-          <p>phone</p>
-        </div>
+        <div className="hidden divider lg:flex"></div>
       </div>
     </footer>
   );
