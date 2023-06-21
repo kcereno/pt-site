@@ -7,16 +7,14 @@ const CTABanner = () => {
   return (
     <section
       id="cta"
-      className="min-w-full bg-base-200"
+      className="section__container bg-base-200"
     >
-      <div className="section-container">
-        <div className="mx-4 align-center">
-          <h2 className="text-center">{DUMMY_TEXT}</h2>
-          <div className="flex justify-center mt-10">
-            <button className="text-center btn btn-wide btn-neutral">
-              Schedule Appointment
-            </button>
-          </div>
+      <div className="section__content">
+        <h2 className="text-center">{DUMMY_TEXT}</h2>
+        <div className="flex justify-center mt-10">
+          <button className="text-center btn btn-wide btn-neutral">
+            Schedule Appointment
+          </button>
         </div>
       </div>
     </section>

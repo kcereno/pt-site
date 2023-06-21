@@ -11,7 +11,7 @@
 }
 
 .section__content {
-  @apply lg:max-w-[1000px] lg:mx-auto mx-4;
+  @apply xl:max-w-[1300px] xl:mx-auto mx-4;
 }
 
 /* Text Classes */
