@@ -7,7 +7,7 @@
 }
 /* Section Classes */
 .section__container {
-  @apply w-auto py-28;
+  @apply w-auto py-36;
 }
 
 .section__content {

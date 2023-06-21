@@ -5,9 +5,9 @@ import FooterHours from './FooterHours';
 
 const Footer = () => {
   return (
-    <footer className="section__container bg-base-300 text-base-content">
+    <footer className="pt-20 bg-base-300 text-base-content">
       <div className="section__content">
-        <div className="flex flex-col gap-10 md:flex-row md:justify-between md:mx-4">
+        <div className="flex flex-col gap-10 md:flex-row md:justify-between ">
           <div className="lg:w-2/3 md:flex-1">
             <h3 className="bold-heading">About Us</h3>
             <div className="mt-3">
