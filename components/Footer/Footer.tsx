@@ -17,7 +17,7 @@ const Footer = () => {
               cum laboriosam praesentium aspernatur.
             </div>
             <button className="mt-5 btn btn-neutral">
-              Book An Appointment
+              Schedule Appointment
             </button>
           </div>
 

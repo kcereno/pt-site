@@ -22,7 +22,7 @@ const Nav = () => {
             </div>
             <div className="hidden md:flex">
               <button className="my-auto btn btn-neutral">
-                Book Appointment
+                Schedule Appointment
               </button>
             </div>
             <div className="md:hidden">
