@@ -25,10 +25,10 @@ const ServicesSection = () => {
   return (
     <section
       id="features"
-      className="min-w-full"
+      className="section__container"
     >
-      <div className="section-container ">
-        <div className="flex flex-col mx-4 md:flex-row md:gap-10 ">
+      <div className="section__content ">
+        <div className="flex flex-col md:flex-row md:gap-10 md:justify-around">
           <div className="flex-1">
             <h2>
               We Offer Various <span className="bold-heading">Services</span>

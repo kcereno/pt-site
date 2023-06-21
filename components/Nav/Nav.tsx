@@ -9,13 +9,12 @@ const Nav = () => {
 
   return (
     <nav className="pt-10 ">
-      <div className="section-content">
-        <div className="flex flex-col mx-2 lg:mx-0">
+      <div className="section__content">
+        <div className="flex flex-col lg:mx-0">
           <div className="md:hidden">
             <button className="my-auto btn btn-block">Book Appointment</button>
             <div className="divider"></div>
           </div>
-
           <div className="flex justify-between align-middle">
             <div className="my-auto font-bold">{DUMMY_LOGO_TEXT}</div>
             <div className="hidden my-auto md:block">

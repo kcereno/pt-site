@@ -7,25 +7,23 @@ const AboutUs = () => {
   const DUMMY_IMG_SRC = 'http://via.placeholder.com/640x360';
 
   return (
-    <section className="min-w-full bg-base-200">
-      <div className="section-container">
-        <div className="mx-4">
-          <h2>
-            About <span className="bold-heading">Us</span>
-          </h2>
-          <div className="flex flex-col md:flex-row md:gap-5 md:mt-10 ">
-            <div className="flex-1">
-              <img
-                src={DUMMY_IMG_SRC}
-                alt=""
-                className="mt-5 rounded-lg md:mt-0 shadow-l "
-              />
-            </div>
-            <div className="flex-1 my-auto">
-              <p className="mt-5 text-lg lg:text-xl ">{aboutText}</p>
-            </div>
+    <section className="section__container bg-base-200">
+      <div className="section__content">
+        <h2>
+          About <span className="bold-heading">Us</span>
+        </h2>
+        <div className="flex flex-col md:flex-row md:gap-5 md:mt-10 lg:gap-10 ">
+          <div className="flex-1 md:self-center">
+            <img
+              src={DUMMY_IMG_SRC}
+              alt=""
+              className="mx-auto mt-5 rounded-lg md:mt-0 shadow-l "
+            />
           </div>
-        </div>{' '}
+          <div className="flex-1 my-auto">
+            <p className="mt-5 text-lg lg:text-xl md:mt-0 ">{aboutText}</p>
+          </div>
+        </div>
       </div>
     </section>
   );

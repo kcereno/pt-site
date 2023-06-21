@@ -5,15 +5,16 @@
 .red {
   @apply bg-red-500;
 }
-
-.container {
-  @apply lg:max-w-[1200px] lg:mx-auto;
+/* Section Classes */
+.section__container {
+  @apply w-auto py-28;
 }
 
-.section-content {
-  @apply lg:max-w-[1000px] lg:mx-auto;
+.section__content {
+  @apply lg:max-w-[1000px] lg:mx-auto mx-4;
 }
 
+/* Text Classes */
 h1 {
   @apply text-3xl font-bold tracking-tight md:text-5xl lg:text-6xl;
 }
@@ -35,7 +36,7 @@ h3 {
 }
 
 .section-container {
-  @apply py-28 mx-4 lg:max-w-[1100px] lg:mx-auto;
+  @apply py-28  lg:max-w-[1100px] lg:mx-auto;
 }
 
 .bold-heading {
