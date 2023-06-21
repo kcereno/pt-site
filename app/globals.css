@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.red {
+  @apply bg-red-500;
+}
+
 .container {
   @apply lg:max-w-[1200px] lg:mx-auto;
+}
+
+.section-content {
+  @apply lg:max-w-[1000px] lg:mx-auto;
 }
 
 h1 {
@@ -27,7 +35,7 @@ h3 {
 }
 
 .section-container {
-  @apply py-28 mx-4 lg:max-w-[1300px] lg:mx-auto;
+  @apply py-28 mx-4 lg:max-w-[1100px] lg:mx-auto;
 }
 
 .bold-heading {

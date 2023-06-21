@@ -13,9 +13,6 @@ module.exports = {
         'hero-default': "url('/assets/images/hero/hero-vertical.jpg')",
         'hero-horizontal': "url('/assets/images/hero/hero-horizontal.avif')",
       },
-      screens: {
-        xs: '450px',
-      },
     },
   },
   plugins: [require('daisyui')],
