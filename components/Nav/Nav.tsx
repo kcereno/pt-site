@@ -8,7 +8,7 @@ const Nav = () => {
   const DUMMY_LOGO_TEXT = 'PT Clinic';
 
   return (
-    <nav className="pt-10 section__container">
+    <nav className="pt-10 ">
       <div className="content_container">
         <div className="flex flex-col lg:mx-0">
           <div className="md:hidden">
@@ -30,8 +30,11 @@ const Nav = () => {
             </div>
           </div>
           <div className="hidden my-2 divider lg:flex"></div>
-          <NavDetails />
         </div>
+      </div>
+      <div className="mt-0 divider divider-vertical lg:hidden"></div>
+      <div className="content_container">
+        <NavDetails />
       </div>
     </nav>
   );

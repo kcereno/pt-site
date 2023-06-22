@@ -7,7 +7,7 @@ const CTABanner = () => {
   return (
     <section
       id="cta"
-      className="p-section bg-base-200"
+      className="py-section bg-base-200"
     >
       <div className="content_container">
         <h2 className="text-center">{DUMMY_TEXT}</h2>

@@ -14,7 +14,6 @@ const NavDetails = () => {
 
   return (
     <div className="mb-5 text-gray-400 lg:flex lg:justify-between">
-      <div className="mt-0 divider divider-vertical lg:hidden"></div>
       <NavDetailEntry
         icon={<FaHome className={iconClass} />}
         label="Visit Our Location"

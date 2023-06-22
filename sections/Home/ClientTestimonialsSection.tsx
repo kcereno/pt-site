@@ -3,7 +3,7 @@ import React from 'react';
 
 const ClientTestimonialsSection = () => {
   return (
-    <section className="p-section">
+    <section className="py-section">
       <div className="content_container">
         <h2>
           Client <span className="bold-heading">Testimonials</span>
