@@ -44,8 +44,8 @@ const AdvantagesSection = () => {
   ];
 
   return (
-    <section className="section__container">
-      <div className="section__content">
+    <section className="p-section ">
+      <div className="content_container">
         <h2>
           Our <span className="bold-heading">Advantages</span>
         </h2>

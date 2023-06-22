@@ -25,9 +25,9 @@ const ServicesSection = () => {
   return (
     <section
       id="features"
-      className="section__container"
+      className="p-section"
     >
-      <div className="section__content ">
+      <div className="content_container">
         <div className="flex flex-col md:flex-row md:gap-10 md:justify-around">
           <div className="flex-1">
             <h2>

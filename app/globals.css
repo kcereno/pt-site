@@ -6,11 +6,8 @@
   @apply bg-red-500;
 }
 /* Section Classes */
-.section__container {
-  @apply w-auto py-36;
-}
 
-.section__content {
+.content_container {
   @apply xl:max-w-[1300px] xl:mx-auto mx-4;
 }
 
@@ -41,4 +38,8 @@ h3 {
 
 .bold-heading {
   @apply font-bold tracking-tight;
+}
+
+.p-section {
+  @apply py-28;
 }

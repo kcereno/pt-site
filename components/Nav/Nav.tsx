@@ -8,8 +8,8 @@ const Nav = () => {
   const DUMMY_LOGO_TEXT = 'PT Clinic';
 
   return (
-    <nav className="pt-10 ">
-      <div className="section__content">
+    <nav className="pt-10 section__container">
+      <div className="content_container">
         <div className="flex flex-col lg:mx-0">
           <div className="md:hidden">
             <button className="my-auto btn btn-block">Book Appointment</button>

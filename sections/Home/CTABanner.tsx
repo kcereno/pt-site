@@ -7,9 +7,9 @@ const CTABanner = () => {
   return (
     <section
       id="cta"
-      className="section__container bg-base-200"
+      className="p-section bg-base-200"
     >
-      <div className="section__content">
+      <div className="content_container">
         <h2 className="text-center">{DUMMY_TEXT}</h2>
         <div className="flex justify-center mt-10">
           <button className="text-center btn btn-wide btn-neutral">
