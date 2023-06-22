@@ -6,12 +6,12 @@
   @apply bg-red-500;
 }
 /* Section Classes */
-.section__container {
+/* .section__container {
   @apply w-auto py-36;
-}
+} */
 
-.section__content {
-  @apply xl:max-w-[1300px] xl:mx-auto mx-4;
+.container {
+  @apply w-full max-w-[1300px] mx-auto;
 }
 
 /* Text Classes */
@@ -35,10 +35,9 @@ h3 {
   @apply lg:max-w-[1100px] mx-auto;
 }
 
-.section-container {
-  @apply py-28  lg:max-w-[1100px] lg:mx-auto;
-}
-
 .bold-heading {
   @apply font-bold tracking-tight;
+}
+.p-section {
+  @apply py-28;
 }

@@ -7,8 +7,8 @@ const AboutUs = () => {
   const DUMMY_IMG_SRC = 'http://via.placeholder.com/640x360';
 
   return (
-    <section className="section__container bg-base-200">
-      <div className="section__content">
+    <section className="bg-base-200 p-section">
+      <div className="container">
         <h2>
           About <span className="bold-heading">Us</span>
         </h2>
