@@ -10,7 +10,7 @@ const Layout = ({ children }: PropsI) => {
   return (
     <div
       className="flex flex-col min-h-screen mx-auto"
-      data-theme="light"
+      data-theme="cmyk"
     >
       <Nav />
       <main className="flex-grow">{children}</main>

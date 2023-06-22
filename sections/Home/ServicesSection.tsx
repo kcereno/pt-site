@@ -40,7 +40,7 @@ const ServicesSection = () => {
               personalized medical care, rehabilitative therapy and companion
               assistance.
             </p>
-            <button className="mt-5 btn">See All Services</button>
+            <button className="mt-5 btn btn-primary">See All Services</button>
           </div>
           {services.map((service) => (
             <ServiceCard

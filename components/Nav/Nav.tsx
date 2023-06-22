@@ -12,7 +12,9 @@ const Nav = () => {
       <div className="content_container">
         <div className="flex flex-col lg:mx-0">
           <div className="md:hidden">
-            <button className="my-auto btn btn-block">Book Appointment</button>
+            <button className="my-auto btn btn-block btn-primary">
+              Schedule Appointment
+            </button>
             <div className="divider"></div>
           </div>
           <div className="flex justify-between align-middle">
@@ -21,7 +23,7 @@ const Nav = () => {
               <NavMenu />
             </div>
             <div className="hidden md:flex">
-              <button className="my-auto btn btn-neutral">
+              <button className="my-auto btn btn-primary">
                 Schedule Appointment
               </button>
             </div>

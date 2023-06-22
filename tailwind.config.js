@@ -7,6 +7,9 @@ module.exports = {
     './ui/**/*.{js,ts,jsx,tsx,mdx}',
     './sections/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  daisyui: {
+    themes: ['cmyk'],
+  },
   theme: {
     extend: {
       backgroundImage: {

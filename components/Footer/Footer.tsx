@@ -16,7 +16,7 @@ const Footer = () => {
               asperiores qui fugit nulla animi numquam nemo commodi dignissimos
               cum laboriosam praesentium aspernatur.
             </div>
-            <button className="mt-5 btn btn-neutral">
+            <button className="mt-5 btn btn-primary">
               Schedule Appointment
             </button>
           </div>
