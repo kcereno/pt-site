@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="hero-overlay bg-opacity-70 "></div>
       <div className="text-center hero-content text-neutral-content">
         <div className="">
-          <h1 className="mb-5 ">{headerText}</h1>
+          <h1 className="mb-5 hero-text ">{headerText}</h1>
           <p className="mb-5 hero-subheader">{subheaderText}</p>
           <button className="btn btn-md btn-primary">Learn More</button>
         </div>

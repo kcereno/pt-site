@@ -2,17 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.red {
-  @apply bg-red-500;
-}
 /* Section Classes */
 
 .content_container {
   @apply xl:max-w-[1300px] xl:mx-auto mx-4 w-full;
-}
-
-.container {
-  @apply max-w-[500px];
 }
 
 .container-fluid {
@@ -32,12 +25,20 @@ h6 {
   @apply text-xl font-bold tracking-tight;
 }
 
+/* Text */
+
 .text-gray {
   @apply text-gray-500;
 }
-.hero-subheader {
-  @apply text-xl md:text-2xl lg:text-3xl;
-}
+
 .bold-heading {
   @apply font-bold tracking-tight;
+}
+
+.hero-text {
+  @apply text-5xl font-bold tracking-tighter text-white md:text-6xl lg:text-7xl;
+}
+
+.hero-subheader {
+  @apply text-2xl text-white md:text-3xl lg:text-4xl;
 }
