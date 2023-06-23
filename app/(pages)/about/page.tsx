@@ -60,40 +60,36 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="">
-            <div className="mt-10">
-              <h3>
-                Our <span className="bold-heading">Mission</span>
-              </h3>
-              <p className="mt-3 text-gray">
-                We are committed as primary healthcare professionals to help our
-                clients resume their lifelong pursuit of health, fitness, and
-                well-being.
+          <div className="mt-10 lg:mt-0">
+            <h3>
+              Our <span className="bold-heading">Mission</span>
+            </h3>
+            <p className="mt-3 text-gray">
+              We are committed as primary healthcare professionals to help our
+              clients resume their lifelong pursuit of health, fitness, and
+              well-being.
+            </p>
+            <div className="mt-5">
+              <strong className="text-secondary">High Quality</strong>
+              <p className="text-gray">
+                We take a goal-oriented approach to healing. Whatever your goals
+                might be we want to help you achieve them
               </p>
-              <div className="mt-5">
-                <strong className="text-secondary">High Quality</strong>
-                <p className="text-gray">
-                  We take a goal-oriented approach to healing. Whatever your
-                  goals might be we want to help you achieve them
-                </p>
-              </div>
-              <div className="mt-5">
-                <strong className="text-secondary">Patient Care</strong>
-                <p className="text-gray">
-                  We’ll provide hands-on treatment in the office and education
-                  you can take home with you, enabling you to become an active
-                  participant in your recovery and future physical health.
-                </p>
-              </div>
-              <div className="mt-5">
-                <strong className="text-secondary">
-                  Proffesional Services
-                </strong>
-                <p className="text-gray">
-                  Our team has a combined 30 years of clinical experience and a
-                  shared passion for helping our community stay active.
-                </p>
-              </div>
+            </div>
+            <div className="mt-5">
+              <strong className="text-secondary">Patient Care</strong>
+              <p className="text-gray">
+                We’ll provide hands-on treatment in the office and education you
+                can take home with you, enabling you to become an active
+                participant in your recovery and future physical health.
+              </p>
+            </div>
+            <div className="mt-5">
+              <strong className="text-secondary">Proffesional Services</strong>
+              <p className="text-gray">
+                Our team has a combined 30 years of clinical experience and a
+                shared passion for helping our community stay active.
+              </p>
             </div>
           </div>
         </div>
@@ -103,7 +99,7 @@ const AboutPage = () => {
           <h3>
             Our <span className="bold-heading">Team</span>
           </h3>
-          <div className="flex flex-col gap-10 mt-10 lg:flex-row">
+          <div className="flex flex-col gap-10 mt-5 lg:flex-row">
             {teamMembers.map((teamMember) => (
               <TeamMemberCard
                 key={teamMember.name}
