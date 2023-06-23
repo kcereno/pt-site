@@ -6,7 +6,7 @@ import React from 'react';
 const NavDrawer = () => {
   const navLink = 'hover:bg-gray-200 hover:text-gray-900 rounded-md';
 
-  const handleCloseButtonClick = () => {
+  const handleButtonClick = () => {
     const drawer = document.getElementById('mobile-nav-drawer');
     drawer?.click();
   };
@@ -37,7 +37,7 @@ const NavDrawer = () => {
           <div className="absolute right-1">
             <button
               className="btn btn-block"
-              onClick={handleCloseButtonClick}
+              onClick={handleButtonClick}
             >
               X
             </button>
@@ -47,6 +47,16 @@ const NavDrawer = () => {
               <Link
                 href="/"
                 className={navLink}
+                onClick={handleButtonClick}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className={navLink}
+                onClick={handleButtonClick}
               >
                 About
               </Link>
@@ -55,6 +65,7 @@ const NavDrawer = () => {
               <Link
                 href="/"
                 className={navLink}
+                onClick={handleButtonClick}
               >
                 Services
               </Link>
@@ -67,6 +78,7 @@ const NavDrawer = () => {
                   <Link
                     href="/"
                     className={navLink}
+                    onClick={handleButtonClick}
                   >
                     Insurance
                   </Link>
@@ -75,6 +87,7 @@ const NavDrawer = () => {
                   <Link
                     href="/"
                     className={navLink}
+                    onClick={handleButtonClick}
                   >
                     New Patient Forms
                   </Link>
@@ -85,6 +98,7 @@ const NavDrawer = () => {
               <Link
                 href="/"
                 className={navLink}
+                onClick={handleButtonClick}
               >
                 Contact
               </Link>

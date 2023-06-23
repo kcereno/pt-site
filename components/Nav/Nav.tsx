@@ -1,15 +1,19 @@
 import NavDetails from './NavDetails';
 import NavDrawer from './NavDrawer';
 import NavMenu from './NavMenu';
+import Link from 'next/link';
 
 const Nav = () => {
   const logoText = (
-    <div className="flex gap-0 lg:flex-col xl:flex-row">
+    <Link
+      href="/"
+      className="flex gap-0 lg:flex-col xl:flex-row"
+    >
       <div className="">
         <span className="text-secondary">ProCare</span>
       </div>
       PhysicalTherapy
-    </div>
+    </Link>
   );
 
   const DUMMY_LOGO_TEXT = 'PT Clinic';
