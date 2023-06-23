@@ -8,7 +8,15 @@
 /* Section Classes */
 
 .content_container {
-  @apply xl:max-w-[1300px] xl:mx-auto mx-4;
+  @apply xl:max-w-[1300px] xl:mx-auto mx-4 w-full;
+}
+
+.container {
+  @apply max-w-[500px];
+}
+
+.container-fluid {
+  @apply w-full px-4 mx-auto xl:max-w-[1300px];
 }
 
 /* Text Classes */

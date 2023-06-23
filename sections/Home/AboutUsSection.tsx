@@ -8,20 +8,20 @@ const AboutUs = () => {
 
   return (
     <section className="bg-gray-100 py-section">
-      <div className="content_container">
+      <div className="container-fluid">
         <h2>
           About <span className="bold-heading">Us</span>
         </h2>
-        <div className="flex flex-col md:flex-row md:gap-5 md:mt-10 lg:gap-10 ">
-          <div className="flex-1 md:self-center">
+        <div className="flex flex-col md:flex-row md:gap-5 lg:gap-10 md:mt-10">
+          <div className="md:flex-1 md:my-auto lg:flex-none">
             <img
               src={DUMMY_IMG_SRC}
               alt=""
-              className="mx-auto mt-5 rounded-lg md:mt-0 shadow-l "
+              className="mt-5 rounded-lg md:my-auto shadow-l"
             />
           </div>
           <div className="flex-1 my-auto">
-            <p className="mt-5 text-lg lg:text-xl md:mt-0 ">{aboutText}</p>
+            <p className="mt-5 text-lg lg:text-2xl md:mt-0 ">{aboutText}</p>
           </div>
         </div>
       </div>

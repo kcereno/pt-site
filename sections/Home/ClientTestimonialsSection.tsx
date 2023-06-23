@@ -3,14 +3,12 @@ import React from 'react';
 
 const ClientTestimonialsSection = () => {
   return (
-    <section className="py-section">
-      <div className="content_container">
-        <h2>
-          Client <span className="bold-heading">Testimonials</span>
-        </h2>
-        <div className="mt-10 ">
-          <ClientTestimonials />
-        </div>
+    <section className="py-section container-fluid">
+      <h2>
+        Client <span className="bold-heading">Testimonials</span>
+      </h2>
+      <div className="mt-10 ">
+        <ClientTestimonials />
       </div>
     </section>
   );

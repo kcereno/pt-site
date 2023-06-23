@@ -27,7 +27,7 @@ const ServicesSection = () => {
       id="features"
       className="py-section"
     >
-      <div className="content_container">
+      <div className="container-fluid">
         <div className="flex flex-col md:flex-row md:gap-10 md:justify-around">
           <div className="flex-1">
             <h2>
