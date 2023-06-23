@@ -10,7 +10,7 @@ const ServiceCard = ({ title, description, imageSrc }: Props) => {
   return (
     <div className="flex-1 mt-10 md:mt-0">
       <img
-        className="self-center w-full rounded-lg shadow-lg"
+        className="self-center object-cover w-full h-40 rounded-lg shadow-lg"
         src={imageSrc}
         alt=""
       />

@@ -6,19 +6,19 @@ const ServicesSection = () => {
       title: 'Neck and Back Rehabilitation',
       description:
         'Herniated Disc, Whiplash, Headaches/Migraines, Sprain/Strain, Laminectomy, Sciatica, Spinal Fusion, Spinal Stenosis, Sacroillac Dusfunction & Low Back Pain.',
-      imageSrc: 'http://via.placeholder.com/640x360',
+      imageSrc: '/assets/images/services/neckandback.jpeg',
     },
     {
       title: 'Knee Rehabilitation',
       description:
         'Sprain/Strain, Patellofemoral Syndrome, ACL Injury Reconstruction, Meniscus Tear/Repair, Tendonitis, Ligament Injury, Knee Joint Replacement',
-      imageSrc: 'http://via.placeholder.com/640x360',
+      imageSrc: '/assets/images/services/knee.jpg',
     },
     {
       title: 'Shoulder Rehabilitation',
       description:
         'Fracture, Dislocation, Rotator Cuff Tear, Impingement, Frozen Shoulder, Pre/Post Operative Treatment.',
-      imageSrc: 'http://via.placeholder.com/640x360',
+      imageSrc: '/assets/images/services/shoulder.jpeg',
     },
   ];
 

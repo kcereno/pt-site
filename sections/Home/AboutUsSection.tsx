@@ -15,9 +15,9 @@ const AboutUs = () => {
         <div className="flex flex-col md:flex-row md:gap-5 lg:gap-10 md:mt-10">
           <div className="md:flex-1 md:my-auto lg:flex-none">
             <img
-              src={DUMMY_IMG_SRC}
+              src={imgSrc}
               alt=""
-              className="mt-5 rounded-lg md:my-auto shadow-l"
+              className="mt-5 rounded-lg md:my-auto shadow-l max-h-[400px]"
             />
           </div>
           <div className="flex-1 my-auto">
