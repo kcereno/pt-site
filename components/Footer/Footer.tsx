@@ -1,6 +1,5 @@
 import React from 'react';
-import FooterDetails from './FooterDetails';
-import Link from 'next/link';
+
 import FooterHours from './FooterHours';
 
 const Footer = () => {

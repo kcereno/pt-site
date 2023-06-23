@@ -7,10 +7,10 @@ const NavDetails = () => {
   const dividerClass = 'mt-0 divider divider-vertical lg:divider-horizontal';
 
   // Data
-  const address = '123 45th St. New York NY';
-  const phone = '(212) 123-4567';
-  const email = 'email@email.com';
-  const hours = 'Mon - Friday: 8AM - 5PM';
+  const address = '4111 30th Ave, Astoria, NY 11103';
+  const phone = '(718) 274-4400';
+  const email = 'info@procareptgroup.com';
+  const hours = 'Mon - Friday: 9AM - 6PM';
 
   return (
     <div className="mb-5 text-gray-400 lg:flex lg:justify-between">

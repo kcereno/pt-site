@@ -2,11 +2,11 @@ import React from 'react';
 
 const FooterHours = () => {
   const days = [
-    { day: 'Monday', hours: '9AM - 5PM' },
-    { day: 'Tuesday', hours: '9AM - 5PM' },
-    { day: 'Wednesday', hours: '9AM - 5PM' },
-    { day: 'Thursday', hours: '9AM - 5PM' },
-    { day: 'Friday', hours: '9AM - 5PM' },
+    { day: 'Monday', hours: '9AM - 6PM' },
+    { day: 'Tuesday', hours: '9AM - 6PM' },
+    { day: 'Wednesday', hours: '9AM - 6PM' },
+    { day: 'Thursday', hours: '9AM - 6PM' },
+    { day: 'Friday', hours: '9AM - 6PM' },
     { day: 'Saturday', hours: 'CLOSED' },
     { day: 'Sunday', hours: 'CLOSED' },
   ];
