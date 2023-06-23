@@ -12,7 +12,7 @@ const FooterHours = () => {
   ];
 
   return (
-    <div className="flex flex-col w-auto gap-1">
+    <div className="flex flex-col w-auto gap-1 text-gray">
       {days.map(({ day, hours }, index) => (
         <div
           className="flex"

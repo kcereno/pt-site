@@ -59,7 +59,7 @@ const AdvantagesSection = () => {
               <div className="my-auto">{advantage.icon}</div>
               <div className="flex flex-col">
                 <p className="font-bold ">{advantage.title}</p>
-                <p className="text-gray-400">{advantage.description}</p>
+                <p className="text-gray">{advantage.description}</p>
               </div>
             </div>
           </div>

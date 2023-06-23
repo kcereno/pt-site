@@ -16,7 +16,7 @@ const ServiceCard = ({ title, description, imageSrc }: Props) => {
       />
       <div className="mt-5">
         <h3>{title}</h3>
-        <p className="mt-1">{description}</p>
+        <p className="mt-1 text-gray">{description}</p>
       </div>
     </div>
   );

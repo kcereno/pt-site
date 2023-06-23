@@ -33,7 +33,7 @@ const ServicesSection = () => {
             <h3>
               We Offer Various <span className="bold-heading">Services</span>
             </h3>
-            <p className="mt-5">
+            <p className="mt-3 text-gray">
               We are proud to offer a wide range of comprehensive services to
               meet the needs of adults, seniors, and pediatric patients. Our
               team of professional caregivers specialize in providing

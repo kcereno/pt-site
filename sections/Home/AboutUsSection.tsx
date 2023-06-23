@@ -21,7 +21,9 @@ const AboutUs = () => {
             />
           </div>
           <div className="flex-1 my-auto">
-            <p className="mt-5 text-lg lg:text-2xl md:mt-0 ">{aboutText}</p>
+            <p className="mt-5 text-lg text-gray lg:text-2xl md:mt-0 ">
+              {aboutText}
+            </p>
           </div>
         </div>
       </div>
