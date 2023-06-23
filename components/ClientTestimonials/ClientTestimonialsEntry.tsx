@@ -11,17 +11,17 @@ const ClientTestimonialsEntry = ({ id, icon, text, person }: Props) => {
   return (
     <div
       id={id}
-      className="w-full lg:flex-1 carousel-item"
+      className="w-full lg:flex-1 "
     >
-      <div className="h-auto mx-auto card bg-base-200 text-base-200-content">
+      <div className="h-auto mx-auto card bg-base-200 text-base-200-content ">
         <div className="justify-center card-body ">
           <div className="flex gap-5 align-center">
             {icon}
             <div className="flex flex-col justify-center">
-              <div>
-                <p className="text-xl">{text}</p>
-                <p className="mt-5 font-bold text-end">{person}</p>
+              <div className="lg:h-36">
+                <p className="text-xl ">{text}</p>
               </div>
+              <p className="mt-5 font-bold text-end">{person}</p>
             </div>
           </div>
         </div>
