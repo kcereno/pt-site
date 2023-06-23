@@ -10,12 +10,14 @@ const CTABanner = () => {
   return (
     <section
       id="cta"
-      className="bg-blue-100 py-section"
+      className="bg-blue-400 py-section"
     >
       <div className="container-fluid">
-        <p className="font-bold text-center md:text-2xl lg:text-3xl">{text}</p>
+        <p className="font-bold text-center text-white md:text-2xl lg:text-3xl">
+          {text}
+        </p>
         <div className="flex justify-center mt-10">
-          <button className="text-center btn btn-lg btn-primary">
+          <button className="text-center btn-primary btn">
             Schedule Appointment
           </button>
         </div>
