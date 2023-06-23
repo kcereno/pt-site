@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container-fluid">
         <div className="flex flex-col gap-10 md:flex-row md:justify-between ">
           <div className="lg:w-2/3 md:flex-1">
-            <h3 className="bold-heading">About Us</h3>
+            <h6 className="bold-heading">About Us</h6>
             <div className="mt-3 max-w-prose">{text}</div>
             <button className="mt-5 btn btn-primary">
               Schedule Appointment
@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-10 md:mt-0">
-            <h3 className="bold-heading">Opening Hours</h3>
+            <h6 className="bold-heading">Opening Hours</h6>
             <div className="mt-3">
               <FooterHours />
             </div>
