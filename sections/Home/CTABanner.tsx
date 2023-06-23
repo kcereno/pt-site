@@ -14,8 +14,8 @@ const CTABanner = () => {
     >
       <div className="container-fluid">
         <p className="font-bold text-center md:text-2xl lg:text-3xl">{text}</p>
-        <div className="flex justify-center mt-5">
-          <button className="text-center btn btn-wide btn-primary">
+        <div className="flex justify-center mt-10">
+          <button className="text-center btn btn-lg btn-primary">
             Schedule Appointment
           </button>
         </div>
