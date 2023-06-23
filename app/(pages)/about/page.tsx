@@ -2,6 +2,7 @@ import PageHeadingBanner from '@/components/Page/PageHeadingBanner';
 import TeamMemberCard from '@/components/TeamMemberCard';
 import React from 'react';
 import { ABeeZee } from 'next/font/google';
+import Image from 'next/image';
 
 const AboutPage = () => {
   const teamMembers = [
@@ -94,18 +95,51 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="divider"></div>
-        {/* Therapises */}
+        {/* Team */}
         <div className="py-10">
           <h3>
             Our <span className="bold-heading">Team</span>
           </h3>
-          <div className="flex flex-col gap-10 mt-5 lg:flex-row">
+          <div className="flex flex-col gap-10 mt-5 md:flex-row">
             {teamMembers.map((teamMember) => (
               <TeamMemberCard
                 key={teamMember.name}
                 {...teamMember}
               />
             ))}
+          </div>
+        </div>
+        {/* Clinic */}
+        <div className="divider"></div>
+        <div className="py-10">
+          <h3>
+            Our <span className="bold-heading">Clinic</span>
+          </h3>
+          <div className="flex flex-col gap-10 mt-5 md:flex-row">
+            <div className="flex-1">
+              <Image
+                className="w-auto rounded-lg shadow-lg"
+                src="/assets/images/treatmentroom.jpeg"
+                alt="clinic"
+                width={600}
+                height={600}
+              />
+              <p className="mt-3 text-xl text-center bold-heading">
+                Main Treatment Room
+              </p>
+            </div>
+            <div className="flex-1">
+              <Image
+                className="flex-1 rounded-lg shadow-lg"
+                src="/assets/images/gym.jpeg"
+                alt="clinic"
+                width={600}
+                height={600}
+              />
+              <p className="mt-3 text-xl text-center bold-heading">
+                Fully Equipped Gym in Basement
+              </p>
+            </div>
           </div>
         </div>
       </div>
