@@ -32,7 +32,7 @@ const NavDrawer = () => {
           htmlFor="my-drawer"
           className="drawer-overlay"
         ></label>
-        <div className="flex w-4/5 h-full p-4 menu bg-base-200 text-base-content">
+        <div className="flex h-full p-4 w-96 menu bg-base-200 text-base-content">
           {/* Sidebar content here */}
           <div className="absolute right-1">
             <button
@@ -42,7 +42,7 @@ const NavDrawer = () => {
               X
             </button>
           </div>
-          <ul className="w-auto my-auto menu menu-lg bg-base-200 rounded-box">
+          <ul className="my-auto menu menu-lg bg-base-200 rounded-box">
             <li>
               <Link
                 href="/"
