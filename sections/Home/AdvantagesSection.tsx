@@ -53,7 +53,7 @@ const AdvantagesSection = () => {
         {advantages.map((advantage, index) => (
           <div
             key={index}
-            className="p-5 outline outline-1 rounded-xl outline-gray-300"
+            className="p-5 outline outline-1 rounded-xl outline-gray-300 "
           >
             <div className="flex gap-5">
               <div className="my-auto">{advantage.icon}</div>
