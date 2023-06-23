@@ -36,7 +36,7 @@ const ClientTestimonials = () => {
 
   return (
     <>
-      <div className="flex flex-wrap gap-5 lg:grid lg:grid-cols-2">
+      <div className="flex flex-wrap gap-10 lg:grid lg:grid-cols-2">
         {testimonials.map(({ id, icon, text, person }) => (
           <ClientTestimonialsEntry
             key={id}
