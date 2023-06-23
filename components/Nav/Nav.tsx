@@ -42,8 +42,8 @@ const Nav = () => {
             <div className="hidden my-2 divider lg:flex"></div>
           </div>
         </div>
-        <div className="mt-0 divider divider-vertical lg:hidden"></div>
       </nav>
+      <div className="mt-0 divider divider-vertical lg:hidden"></div>
       <div className="container-fluid">
         <NavDetails />
       </div>

@@ -18,7 +18,7 @@ const ClientTestimonialsEntry = ({ id, icon, text, person }: Props) => {
           <div className="flex gap-5 align-center">
             {icon}
             <div className="flex flex-col justify-center">
-              <div className="lg:h-36">
+              <div className="lg:h-44">
                 <p className="text-xl ">{text}</p>
               </div>
               <p className="mt-5 font-bold text-end">{person}</p>
