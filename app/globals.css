@@ -21,23 +21,11 @@
 
 /* Text Classes */
 h1 {
-  @apply text-3xl font-bold tracking-tight md:text-5xl lg:text-6xl;
-}
-
-.hero-subheader {
-  @apply text-xl md:text-2xl lg:text-3xl;
-}
-
-h2 {
-  @apply text-2xl md:text-4xl lg:text-5xl;
+  @apply text-5xl tracking-tighter;
 }
 
 h3 {
   @apply text-4xl tracking-tighter;
-}
-
-.bold-heading {
-  @apply font-bold tracking-tight;
 }
 
 h6 {
@@ -46,4 +34,10 @@ h6 {
 
 .text-gray {
   @apply text-gray-500;
+}
+.hero-subheader {
+  @apply text-xl md:text-2xl lg:text-3xl;
+}
+.bold-heading {
+  @apply font-bold tracking-tight;
 }
