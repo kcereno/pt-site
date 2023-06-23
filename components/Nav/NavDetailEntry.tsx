@@ -1,14 +1,22 @@
+import Link from 'next/link';
 import { IconContext } from 'react-icons';
 
 interface Props {
   icon: React.ReactNode;
   label: string;
   detail: string;
+  url?: string;
 }
 
-const NavDetailEntry = ({ icon, label, detail }: Props) => {
+const NavDetailEntry = ({ icon, label, detail, url }: Props) => {
+  const link = url ? url : '#';
+
   return (
-    <div className="flex flex-col hover:text-secondary">
+    <Link
+      href={link}
+      className="flex flex-col hover:text-secondary"
+      target={url ? '_blank' : '_self'}
+    >
       <div className="flex gap-2 lg:gap-5">
         <div>
           <div className="p-3 lg:px-0 ">{icon}</div>
@@ -18,7 +26,7 @@ const NavDetailEntry = ({ icon, label, detail }: Props) => {
           <p className="text-sm">{detail}</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

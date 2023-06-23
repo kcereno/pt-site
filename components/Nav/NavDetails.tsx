@@ -18,6 +18,7 @@ const NavDetails = () => {
         icon={<FaHome className={iconClass} />}
         label="Visit Our Location"
         detail={address}
+        url="https://goo.gl/maps/cJf2Sa8bh6KNxuX38"
       />
 
       <div className={dividerClass}></div>
@@ -25,6 +26,7 @@ const NavDetails = () => {
         icon={<FaPhone className={iconClass} />}
         label="Give Us a Call"
         detail={phone}
+        url="tel:7182744400"
       />
 
       <div className={dividerClass}></div>
@@ -32,6 +34,7 @@ const NavDetails = () => {
         icon={<FaEnvelope className={iconClass} />}
         label="Send Us a Message"
         detail={email}
+        url="mailto:info@procareptgroup.com"
       />
 
       <div className={dividerClass}></div>
@@ -39,6 +42,7 @@ const NavDetails = () => {
         icon={<FaClock className={iconClass} />}
         label="Opening Hours"
         detail={hours}
+        url=""
       />
     </div>
   );
