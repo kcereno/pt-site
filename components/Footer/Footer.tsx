@@ -1,20 +1,18 @@
 import React from 'react';
 
 import FooterHours from './FooterHours';
+import { text } from 'stream/consumers';
 
 const Footer = () => {
+  const text =
+    "Discover Astoria Physiotherapy: your go-to PT clinic in Astoria. Our dedicated team offers personalized care, advanced treatments, and a welcoming environment. Whether you need rehab, pain relief, or performance enhancement, we've got you covered. Experience the difference today.";
   return (
     <footer className="pt-20 bg-gray-300 text-base-content">
       <div className="container-fluid">
         <div className="flex flex-col gap-10 md:flex-row md:justify-between ">
           <div className="lg:w-2/3 md:flex-1">
             <h3 className="bold-heading">About Us</h3>
-            <div className="mt-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod,
-              facilis repellendus. Provident unde omnis necessitatibus sint, est
-              asperiores qui fugit nulla animi numquam nemo commodi dignissimos
-              cum laboriosam praesentium aspernatur.
-            </div>
+            <div className="mt-3 max-w-prose">{text}</div>
             <button className="mt-5 btn btn-primary">
               Schedule Appointment
             </button>
