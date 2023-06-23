@@ -45,9 +45,9 @@ const AdvantagesSection = () => {
 
   return (
     <section className="py-section container-fluid ">
-      <h2>
+      <h3>
         Our <span className="bold-heading">Advantages</span>
-      </h2>
+      </h3>
 
       <div className="flex flex-col gap-5 mt-10 md:grid md:grid-cols-3 md:gap-10">
         {advantages.map((advantage, index) => (

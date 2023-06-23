@@ -9,9 +9,9 @@ const AboutUs = () => {
   return (
     <section className="bg-gray-100 py-section">
       <div className="container-fluid">
-        <h2>
+        <h3>
           About <span className="bold-heading">Us</span>
-        </h2>
+        </h3>
         <div className="flex flex-col md:flex-row md:gap-5 lg:gap-10 md:mt-10">
           <div className="md:flex-1 md:my-auto lg:flex-none">
             <img

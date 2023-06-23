@@ -4,9 +4,9 @@ import React from 'react';
 const ClientTestimonialsSection = () => {
   return (
     <section className="py-section container-fluid">
-      <h2>
+      <h3>
         Client <span className="bold-heading">Testimonials</span>
-      </h2>
+      </h3>
       <div className="mt-10 ">
         <ClientTestimonials />
       </div>

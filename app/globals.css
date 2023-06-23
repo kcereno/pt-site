@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  @apply text-xl font-bold;
+  @apply text-4xl tracking-tighter;
 }
 
 .bold-heading {
