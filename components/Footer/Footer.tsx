@@ -5,7 +5,7 @@ import { text } from 'stream/consumers';
 
 const Footer = () => {
   const text =
-    "Discover Astoria Physiotherapy: your go-to PT clinic in Astoria. Our dedicated team offers personalized care, advanced treatments, and a welcoming environment. Whether you need rehab, pain relief, or performance enhancement, we've got you covered. Experience the difference today.";
+    "We are Procare Physical Therapy: your go-to PT clinic in Astoria. Our dedicated team offers personalized care, advanced treatments, and a welcoming environment. Whether you need rehab, pain relief, or performance enhancement, we've got you covered. Experience the difference today.";
   return (
     <footer className="pt-20 bg-gray-300 text-base-content">
       <div className="container-fluid">
