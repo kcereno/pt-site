@@ -17,7 +17,7 @@ const NavMenu = () => {
       <li>
         <Link
           className={linkClasses}
-          href="/"
+          href="/services"
         >
           Services
         </Link>

@@ -63,7 +63,7 @@ const NavDrawer = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="/services"
                 className={navLink}
                 onClick={handleButtonClick}
               >
