@@ -27,7 +27,7 @@ const InsurancePage = () => {
 
       <div className="py-10 container-fluid">
         {/* Know Your Insurance */}
-        <div className="">
+        <div>
           <h3>
             Know Your <span className="bold-heading">Insurance</span>
           </h3>
@@ -56,7 +56,7 @@ const InsurancePage = () => {
 
         <div className="my-5 divider"></div>
         {/* Deductible */}
-        <div className="">
+        <div>
           <h3>
             What is a <span className="bold-heading">Deductible</span>?
           </h3>
@@ -71,7 +71,7 @@ const InsurancePage = () => {
 
         <div className="my-5 divider"></div>
         {/* Copay */}
-        <div className="">
+        <div>
           <h3>
             What is a <span className="bold-heading">Co-Pay</span>?
           </h3>
@@ -84,7 +84,7 @@ const InsurancePage = () => {
 
         <div className="my-5 divider"></div>
         {/* with insurance */}
-        <div className="">
+        <div>
           <h3>
             What is the fee for a session{' '}
             <span className="bold-heading">with insurance</span>?
@@ -100,7 +100,7 @@ const InsurancePage = () => {
         </div>
         <div className="my-5 divider"></div>
         {/* without insurance */}
-        <div className="">
+        <div>
           <h3>
             What is the fee for a session{' '}
             <span className="bold-heading">without insurance</span>?

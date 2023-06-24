@@ -37,7 +37,7 @@ const NavMenu = () => {
             <li>
               <Link
                 className={linkClasses}
-                href="/"
+                href="/newpatientforms"
               >
                 New Patient Forms
               </Link>

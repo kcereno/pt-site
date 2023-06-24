@@ -21,7 +21,7 @@ const AboutPage = () => {
   ];
 
   return (
-    <section className="">
+    <section>
       <PageHeadingBanner
         title="About Us"
         subtext="Helping patients regain their movement since 2001"
@@ -30,8 +30,8 @@ const AboutPage = () => {
       <div className="py-10 container-fluid">
         {/* Mission */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-10">
-          <div className="">
-            <div className="">
+          <div>
+            <div>
               <h3>
                 Our <span className="bold-heading">Vision</span>
               </h3>

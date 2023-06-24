@@ -85,7 +85,7 @@ const NavDrawer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/"
+                    href="/newpatientforms"
                     className={navLink}
                     onClick={handleButtonClick}
                   >

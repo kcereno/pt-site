@@ -7,7 +7,7 @@ import ClientTestimonialsSection from '@/sections/Home/ClientTestimonialsSection
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <HeroSection />
       <ServicesSection />
       <AboutUsSection />

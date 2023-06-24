@@ -15,7 +15,7 @@ const TeamMemberCard = ({ name, title, description }: Props) => {
         alt=""
       />
       <div className="p-5 border rounded-b-lg ">
-        <div className="">
+        <div>
           <p className="text-xl bold-heading">{name}</p>
           <p className="bold-heading text-secondary">{title}</p>
         </div>

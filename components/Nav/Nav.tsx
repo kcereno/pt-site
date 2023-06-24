@@ -9,7 +9,7 @@ const Nav = () => {
       href="/"
       className="flex gap-0 lg:flex-col xl:flex-row"
     >
-      <div className="">
+      <div>
         <span className="text-secondary">ProCare</span>
       </div>
       PhysicalTherapy
@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <>
       <nav className="pt-10 container-fluid ">
-        <div className="">
+        <div>
           <div className="flex flex-col lg:mx-0">
             <div className="lg:hidden">
               <button className="my-auto btn btn-block btn-primary">
