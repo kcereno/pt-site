@@ -9,7 +9,7 @@ const ContactPage = () => {
         title="Contact Us"
         subtext="Feel free to ask any questions over the phone, or get in touch via our contact form below"
       />
-      <div className="py-10 container-fluid">
+      <div className="py-10 mx-0 container-fluid">
         <ContactForm />
       </div>
     </section>

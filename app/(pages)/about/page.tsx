@@ -121,8 +121,8 @@ const AboutPage = () => {
                 className="w-auto rounded-lg shadow-lg"
                 src="/assets/images/treatmentroom.jpeg"
                 alt="clinic"
-                width={600}
-                height={600}
+                width={800}
+                height={800}
               />
               <p className="mt-3 text-xl text-center bold-heading">
                 Main Treatment Room
@@ -133,8 +133,8 @@ const AboutPage = () => {
                 className="flex-1 rounded-lg shadow-lg"
                 src="/assets/images/gym.jpeg"
                 alt="clinic"
-                width={600}
-                height={600}
+                width={800}
+                height={800}
               />
               <p className="mt-3 text-xl text-center bold-heading">
                 Fully Equipped Gym in Basement
