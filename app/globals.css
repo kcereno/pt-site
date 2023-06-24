@@ -25,6 +25,12 @@ h6 {
   @apply text-xl font-bold tracking-tight;
 }
 
+p,
+li,
+strong {
+  @apply text-lg leading-relaxed tracking-tight;
+}
+
 /* Text */
 
 .text-gray {

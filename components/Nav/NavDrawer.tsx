@@ -76,7 +76,7 @@ const NavDrawer = () => {
               <ul className="p-2">
                 <li>
                   <Link
-                    href="/"
+                    href="/insurance"
                     className={navLink}
                     onClick={handleButtonClick}
                   >

@@ -29,7 +29,7 @@ const NavMenu = () => {
             <li>
               <Link
                 className={linkClasses}
-                href="/"
+                href="/insurance"
               >
                 Insurance
               </Link>

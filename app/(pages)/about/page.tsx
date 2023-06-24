@@ -35,7 +35,7 @@ const AboutPage = () => {
               <h3>
                 Our <span className="bold-heading">Vision</span>
               </h3>
-              <p className="mt-3 text-gray">
+              <p className="mt-2 text-gray">
                 To be a company that attracts, rewards, and retains highly
                 skilled physical therapy staff. Our proactive approach to the
                 development of best business practices and promotion of
@@ -46,7 +46,7 @@ const AboutPage = () => {
               <h3>
                 Our <span className="bold-heading">Philosophy</span>
               </h3>
-              <p className="mt-3 text-gray">
+              <p className="mt-2 text-gray">
                 Physio Physical Therapy is committed to providing high quality
                 outpatient physical therapy services in beautiful
                 state-of-the-art facilities.
@@ -65,21 +65,21 @@ const AboutPage = () => {
             <h3>
               Our <span className="bold-heading">Mission</span>
             </h3>
-            <p className="mt-3 text-gray">
+            <p className="mt-2 text-gray">
               We are committed as primary healthcare professionals to help our
               clients resume their lifelong pursuit of health, fitness, and
               well-being.
             </p>
             <div className="mt-5">
               <strong className="text-secondary">High Quality</strong>
-              <p className="text-gray">
+              <p className="mt-2 text-gray">
                 We take a goal-oriented approach to healing. Whatever your goals
                 might be we want to help you achieve them
               </p>
             </div>
             <div className="mt-5">
               <strong className="text-secondary">Patient Care</strong>
-              <p className="text-gray">
+              <p className="mt-2 text-gray">
                 We’ll provide hands-on treatment in the office and education you
                 can take home with you, enabling you to become an active
                 participant in your recovery and future physical health.
@@ -87,7 +87,7 @@ const AboutPage = () => {
             </div>
             <div className="mt-5">
               <strong className="text-secondary">Proffesional Services</strong>
-              <p className="text-gray">
+              <p className="mt-2 text-gray">
                 Our team has a combined 30 years of clinical experience and a
                 shared passion for helping our community stay active.
               </p>
