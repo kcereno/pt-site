@@ -13,11 +13,11 @@ const AboutUs = () => {
           About <span className="bold-heading">Us</span>
         </h3>
         <div className="flex flex-col md:flex-row md:gap-5 lg:gap-10 md:mt-10">
-          <div className="md:flex-1 md:my-auto lg:flex-none">
+          <div className="md:flex-1 md:my-auto lg:flex-none ">
             <Image
               src="/assets/images/team.jpeg"
               alt="team photo"
-              className="mt-5 rounded-lg md:my-auto shadow-l max-h-[400px]"
+              className="mt-5 rounded-lg md:my-auto shadow-l w-full lg:max-h-[400px]"
               width={600}
               height={600}
             />
