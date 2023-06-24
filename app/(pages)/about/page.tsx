@@ -1,7 +1,7 @@
 import PageHeadingBanner from '@/components/Page/PageHeadingBanner';
 import TeamMemberCard from '@/components/TeamMemberCard';
 import React from 'react';
-import { ABeeZee } from 'next/font/google';
+
 import Image from 'next/image';
 
 const AboutPage = () => {
