@@ -17,7 +17,7 @@ const CTABanner = () => {
           {text}
         </p>
         <div className="flex justify-center mt-10">
-          <button className="text-center btn-primary btn">
+          <button className="text-center btn-secondary btn">
             Schedule Appointment
           </button>
         </div>
