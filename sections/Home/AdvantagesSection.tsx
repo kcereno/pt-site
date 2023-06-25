@@ -49,7 +49,7 @@ const AdvantagesSection = () => {
         Our <span className="bold-heading">Advantages</span>
       </h3>
 
-      <div className="flex flex-col gap-5 mt-10 md:grid md:grid-cols-3 md:gap-10">
+      <div className="flex flex-col gap-5 mt-5 md:grid md:grid-cols-3 md:gap-10">
         {advantages.map((advantage, index) => (
           <div
             key={index}

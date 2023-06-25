@@ -12,7 +12,7 @@ const AboutUs = () => {
         <h3>
           About <span className="bold-heading">Us</span>
         </h3>
-        <div className="flex flex-col md:flex-row md:gap-5 lg:gap-10 md:mt-10">
+        <div className="flex flex-col md:flex-row md:gap-5 lg:gap-10 md:mt-5">
           <div className="md:flex-1 md:my-auto lg:flex-none ">
             <Image
               src="/assets/images/team.jpeg"

@@ -7,7 +7,7 @@ const ClientTestimonialsSection = () => {
       <h3>
         Client <span className="bold-heading">Testimonials</span>
       </h3>
-      <div className="mt-10 ">
+      <div className="mt-5 ">
         <ClientTestimonials />
       </div>
     </section>
