@@ -27,7 +27,7 @@ const AboutPage = () => {
         subtext="Helping patients regain their movement since 2001"
       />
 
-      <div className="py-10 container-fluid">
+      <div className="py-16 container-fluid">
         {/* Mission */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-10">
           <div>
@@ -94,9 +94,9 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="divider"></div>
+        <div className="my-16 divider"></div>
         {/* Team */}
-        <div className="py-10">
+        <div className="">
           <h3>
             Our <span className="bold-heading">Team</span>
           </h3>
@@ -110,8 +110,8 @@ const AboutPage = () => {
           </div>
         </div>
         {/* Clinic */}
-        <div className="divider"></div>
-        <div className="py-10">
+        <div className="my-16 divider"></div>
+        <div className="mb-16">
           <h3>
             Our <span className="bold-heading">Clinic</span>
           </h3>
