@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import NavLink from './NavLink';
 
 interface Props {
@@ -6,11 +6,19 @@ interface Props {
 }
 
 const NavLinks = ({ mobile }: Props) => {
+  const [resourceOpen, setResourceOpen] = useState(false);
+
+  const handleResourceHover = () => {
+    setResourceOpen(true);
+  };
+
+  const handleResourceLeave = () => {
+    setResourceOpen(false);
+  };
+
   let classes = 'px-1 menu lg:menu-lg menu-horizontal';
 
-  if (mobile) {
-    classes = 'my-auto menu menu-lg bg-base-200 rounded-box';
-  }
+  if (mobile) classes = 'my-auto menu menu-lg bg-base-200 rounded-box';
 
   const handleButtonClick = () => {
     if (mobile) {
@@ -40,8 +48,13 @@ const NavLinks = ({ mobile }: Props) => {
       />
       {!mobile && (
         <li tabIndex={0}>
-          <details>
-            <summary>Resources</summary>
+          <details open={resourceOpen}>
+            <summary
+              onMouseOver={handleResourceHover}
+              onMouseLeave={handleResourceLeave}
+            >
+              Resources
+            </summary>
             <ul className="p-2">
               <NavLink
                 text="Insurance"
@@ -60,7 +73,7 @@ const NavLinks = ({ mobile }: Props) => {
       {mobile && (
         <li>
           <a>Resources</a>
-          <ul className="p-2">
+          <ul className="px-5 py-2">
             <NavLink
               text="Insurance"
               href="/insurance"
