@@ -18,6 +18,7 @@ module.exports = {
       },
       padding: {
         section: '7rem',
+        page: '4rem',
       },
     },
   },

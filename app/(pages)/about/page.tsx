@@ -27,7 +27,7 @@ const AboutPage = () => {
         subtext="Helping patients regain their movement since 2001"
       />
 
-      <div className="py-16 container-fluid">
+      <div className="py-page container-fluid">
         {/* Mission */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-10">
           <div>

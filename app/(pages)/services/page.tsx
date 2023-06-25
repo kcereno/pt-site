@@ -47,7 +47,7 @@ const ServicePage = () => {
         title="Services"
         subtext="Comprehensive Physical Therapy Services for Optimal Recovery and Wellness"
       />
-      <div className="py-10 container-fluid">
+      <div className="py-page container-fluid">
         <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10 md:justify-around">
           {services.map((service) => (
             <ServiceCard

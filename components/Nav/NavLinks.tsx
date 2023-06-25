@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import NavLink from './NavLink';
 
 interface Props {
@@ -13,12 +13,16 @@ const NavLinks = ({ mobile }: Props) => {
   if (mobile) classes = 'my-auto menu menu-lg bg-base-200 rounded-box';
 
   const handleButtonClick = () => {
+    console.log('clicked');
+    setResourceOpen(false);
     if (mobile) {
       const drawer = document.getElementById('mobile-nav-drawer');
       drawer?.click();
     }
+  };
 
-    if (resourceOpen) setResourceOpen(false);
+  const handleResourceButtonClick = () => {
+    setResourceOpen((prev) => !prev);
   };
 
   return (
@@ -42,7 +46,7 @@ const NavLinks = ({ mobile }: Props) => {
       />
       {!mobile && (
         <li tabIndex={0}>
-          <details open={resourceOpen}>
+          <details open={false}>
             <summary>Resources</summary>
             <ul className="p-2">
               <NavLink

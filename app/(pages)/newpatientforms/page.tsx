@@ -10,7 +10,7 @@ const NewPatientFormsPage = () => {
         title="New Patient Forms"
         subtext="Please fill out the following forms before your first appointment."
       />
-      <div className="py-10 container-fluid">
+      <div className="py-page container-fluid">
         <div>
           <p className="text-gray">
             The links below will provide you with our patient forms. You can
@@ -28,7 +28,7 @@ const NewPatientFormsPage = () => {
             installed.
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-20">
           <div className="flex flex-col gap-5 mt-5 md:flex-row md:mt-3 md:gap-14">
             <div className="order-last mt-3 md:order-first md:mt-0 md:w-4/5">
               <h6>New Patient Intake Form</h6>
@@ -59,8 +59,8 @@ const NewPatientFormsPage = () => {
             </Link>
           </div>
         </div>
-        <div className="divider"></div>
-        <div className="mt-10">
+        <div className="my-10 divider"></div>
+        <div>
           <div className="flex flex-col gap-5 mt-5 md:flex-row md:mt-3">
             <div className="order-last mt-3 md:order-first md:mt-0 md:w-4/5">
               <h6>Patient Health History Form</h6>
