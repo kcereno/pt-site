@@ -8,14 +8,6 @@ interface Props {
 const NavLinks = ({ mobile }: Props) => {
   const [resourceOpen, setResourceOpen] = useState(false);
 
-  const handleResourceHover = () => {
-    setResourceOpen(true);
-  };
-
-  const handleResourceLeave = () => {
-    setResourceOpen(false);
-  };
-
   let classes = 'px-1 menu lg:menu-lg menu-horizontal';
 
   if (mobile) classes = 'my-auto menu menu-lg bg-base-200 rounded-box';
@@ -25,6 +17,8 @@ const NavLinks = ({ mobile }: Props) => {
       const drawer = document.getElementById('mobile-nav-drawer');
       drawer?.click();
     }
+
+    if (resourceOpen) setResourceOpen(false);
   };
 
   return (
@@ -49,12 +43,7 @@ const NavLinks = ({ mobile }: Props) => {
       {!mobile && (
         <li tabIndex={0}>
           <details open={resourceOpen}>
-            <summary
-              onMouseOver={handleResourceHover}
-              onMouseLeave={handleResourceLeave}
-            >
-              Resources
-            </summary>
+            <summary>Resources</summary>
             <ul className="p-2">
               <NavLink
                 text="Insurance"

@@ -1,30 +1,22 @@
 import React from 'react';
 
+import Link from 'next/link';
+
 interface Props {
   mobile?: boolean;
-  onClick?: () => void;
+
   className?: string;
 }
 
-const ScheduleAppointmentButton: React.FC<Props> = ({
-  mobile,
-  onClick,
-  className,
-}) => {
-  const defaultClass = `my-auto btn btn-primary ${className}`;
-
-  let mobileClass = '';
-  if (mobile) {
-    mobileClass = 'btn-block';
-  }
+const ScheduleAppointmentButton: React.FC<Props> = ({ mobile, className }) => {
+  const buttonClass = `my-auto btn btn-primary ${className} ${
+    mobile ? 'btn-block' : ''
+  }`;
 
   return (
-    <button
-      className={`${defaultClass} ${mobile ? mobileClass : ''}`}
-      onClick={onClick}
-    >
-      Schedule Appointment
-    </button>
+    <Link href="/contact">
+      <button className={buttonClass}>Schedule Appointment</button>
+    </Link>
   );
 };
 
