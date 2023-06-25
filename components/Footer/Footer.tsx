@@ -2,6 +2,7 @@ import React from 'react';
 
 import FooterHours from './FooterHours';
 import { text } from 'stream/consumers';
+import ScheduleAppointmentButton from '@/ui/buttons/ScheduleAppointmentButton';
 
 const Footer = () => {
   const text =
@@ -13,9 +14,7 @@ const Footer = () => {
           <div className="lg:w-2/3 md:flex-1">
             <h6 className="bold-heading">About Us</h6>
             <div className="mt-3 max-w-prose text-gray">{text}</div>
-            <button className="mt-5 btn btn-primary">
-              Schedule Appointment
-            </button>
+            <ScheduleAppointmentButton className="mt-5" />
           </div>
 
           <div className="mt-10 md:mt-0">

@@ -1,3 +1,4 @@
+import ScheduleAppointmentButton from '@/ui/buttons/ScheduleAppointmentButton';
 import React from 'react';
 
 const CTABanner = () => {
@@ -17,9 +18,7 @@ const CTABanner = () => {
           {text}
         </p>
         <div className="flex justify-center mt-10">
-          <button className="text-center btn-secondary btn">
-            Schedule Appointment
-          </button>
+          <ScheduleAppointmentButton className="text-center btn-secondary" />
         </div>
       </div>
     </section>
