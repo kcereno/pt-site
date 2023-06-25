@@ -1,4 +1,4 @@
-import ContactForm from '@/components/ContactForm';
+import ContactForm from '@/components/ContactForm/ContactForm';
 import PageHeadingBanner from '@/components/Page/PageHeadingBanner';
 import React from 'react';
 
