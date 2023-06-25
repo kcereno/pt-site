@@ -1,3 +1,4 @@
+'use client';
 import ScheduleAppointmentButton from '@/ui/buttons/ScheduleAppointmentButton';
 import NavDrawer from './NavDrawer';
 import NavLinks from './NavLinks';

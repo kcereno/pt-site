@@ -1,34 +1,83 @@
+import React from 'react';
 import NavLink from './NavLink';
 
-const NavLinks = () => {
+interface Props {
+  mobile?: boolean;
+}
+
+const NavLinks = ({ mobile }: Props) => {
+  let classes = 'px-1 menu lg:menu-lg menu-horizontal';
+
+  if (mobile) {
+    classes = 'my-auto menu menu-lg bg-base-200 rounded-box';
+  }
+
+  const handleButtonClick = () => {
+    if (mobile) {
+      const drawer = document.getElementById('mobile-nav-drawer');
+      drawer?.click();
+    }
+  };
+
   return (
-    <ul className="px-1 menu lg:menu-lg menu-horizontal">
+    <ul className={classes}>
+      {mobile && (
+        <NavLink
+          text="Home"
+          href="/"
+          onClick={handleButtonClick}
+        />
+      )}
       <NavLink
         text="About Us"
         href="/about"
+        onClick={handleButtonClick}
       />
       <NavLink
         text="Services"
         href="/services"
+        onClick={handleButtonClick}
       />
-      <li tabIndex={0}>
-        <details>
-          <summary>Resources</summary>
+      {!mobile && (
+        <li tabIndex={0}>
+          <details>
+            <summary>Resources</summary>
+            <ul className="p-2">
+              <NavLink
+                text="Insurance"
+                href="/insurance"
+                onClick={handleButtonClick}
+              />
+              <NavLink
+                text="New Patient Forms"
+                href="/newpatientforms"
+                onClick={handleButtonClick}
+              />
+            </ul>
+          </details>
+        </li>
+      )}
+      {mobile && (
+        <li>
+          <a>Resources</a>
           <ul className="p-2">
             <NavLink
               text="Insurance"
               href="/insurance"
+              onClick={handleButtonClick}
             />
             <NavLink
               text="New Patient Forms"
               href="/newpatientforms"
+              onClick={handleButtonClick}
             />
           </ul>
-        </details>
-      </li>
+        </li>
+      )}
       <NavLink
-        text="Contact Us"
+        text="Contact"
         href="/contact"
+        onClick={handleButtonClick}
       />
     </ul>
   );

@@ -5,9 +5,10 @@ import { text } from 'stream/consumers';
 interface Props {
   text: string;
   href: string;
+  onClick?: () => void;
 }
 
-const NavLink = ({ text, href }: Props) => {
+const NavLink = ({ text, href, onClick }: Props) => {
   const linkClass = ' hover:text-secondary';
 
   return (
@@ -15,6 +16,7 @@ const NavLink = ({ text, href }: Props) => {
       <Link
         className={linkClass}
         href={href}
+        onClick={onClick}
       >
         {text}
       </Link>
