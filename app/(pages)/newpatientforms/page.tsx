@@ -29,9 +29,9 @@ const NewPatientFormsPage = () => {
           </p>
         </div>
         <div className="mt-10">
-          <h6>New Patient Intake Form</h6>
-          <div className="flex flex-col gap-5 mt-5 md:flex-row md:mt-3 ">
+          <div className="flex flex-col gap-5 mt-5 md:flex-row md:mt-3 md:gap-14">
             <div className="order-last mt-3 md:order-first md:mt-0 md:w-4/5">
+              <h6>New Patient Intake Form</h6>
               <p className="text-gray">
                 We kindly ask you to complete the New Patient Intake Form,
                 providing your personal and insurance information. Your accuracy
@@ -61,9 +61,9 @@ const NewPatientFormsPage = () => {
         </div>
         <div className="divider"></div>
         <div className="mt-10">
-          <h6>Patient Health History Form</h6>
           <div className="flex flex-col gap-5 mt-5 md:flex-row md:mt-3">
             <div className="order-last mt-3 md:order-first md:mt-0 md:w-4/5">
+              <h6>Patient Health History Form</h6>
               <p className="text-gray">
                 We would like to gather important information about your health
                 through the Personal Health History form. This form allows us to
