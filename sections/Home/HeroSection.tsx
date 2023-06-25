@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const HeroSection = () => {
@@ -18,7 +19,12 @@ const HeroSection = () => {
         <div>
           <h1 className="mb-5 hero-text ">{headerText}</h1>
           <p className="mb-5 hero-subheader">{subheaderText}</p>
-          <button className="btn btn-md btn-primary">Learn More</button>
+          <Link
+            href="/about"
+            className="btn btn-md btn-primary"
+          >
+            Learn More
+          </Link>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import ServiceCard from '@/components/ServiceCard';
+import Link from 'next/link';
 
 const ServicesSection = () => {
   const services = [
@@ -40,7 +41,12 @@ const ServicesSection = () => {
               personalized medical care, rehabilitative therapy and companion
               assistance.
             </p>
-            <button className="mt-5 btn btn-primary">See All Services</button>
+            <Link
+              href="services"
+              className="mt-5 btn btn-primary"
+            >
+              See All Services
+            </Link>
           </div>
           {services.map((service) => (
             <ServiceCard

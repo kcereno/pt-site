@@ -43,7 +43,7 @@ const NavDetails = () => {
           icon={<FaClock className={iconClass} />}
           label="Opening Hours"
           detail={hours}
-          url=""
+          url="#hours"
         />
       </div>
     </div>

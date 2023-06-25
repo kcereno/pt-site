@@ -12,7 +12,10 @@ const FooterHours = () => {
   ];
 
   return (
-    <div className="flex flex-col w-auto gap-1 text-gray">
+    <section
+      id="hours"
+      className="flex flex-col w-auto gap-1 text-gray"
+    >
       {days.map(({ day, hours }, index) => (
         <div
           className="flex"
@@ -25,7 +28,7 @@ const FooterHours = () => {
           {/* <div className="lg:hidden"></div> */}
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
