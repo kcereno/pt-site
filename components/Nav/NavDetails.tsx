@@ -13,37 +13,39 @@ const NavDetails = () => {
   const hours = 'Mon - Friday: 9AM - 6PM';
 
   return (
-    <div className="mb-5 text-gray-400 lg:flex lg:justify-between">
-      <NavDetailEntry
-        icon={<FaHome className={iconClass} />}
-        label="Visit Our Location"
-        detail={address}
-        url="https://goo.gl/maps/cJf2Sa8bh6KNxuX38"
-      />
+    <div className="container-fluid">
+      <div className="mb-5 text-gray-400 lg:flex lg:justify-between">
+        <NavDetailEntry
+          icon={<FaHome className={iconClass} />}
+          label="Visit Our Location"
+          detail={address}
+          url="https://goo.gl/maps/cJf2Sa8bh6KNxuX38"
+        />
 
-      <div className={dividerClass}></div>
-      <NavDetailEntry
-        icon={<FaPhone className={iconClass} />}
-        label="Give Us a Call"
-        detail={phone}
-        url="tel:7182744400"
-      />
+        <div className={dividerClass}></div>
+        <NavDetailEntry
+          icon={<FaPhone className={iconClass} />}
+          label="Give Us a Call"
+          detail={phone}
+          url="tel:7182744400"
+        />
 
-      <div className={dividerClass}></div>
-      <NavDetailEntry
-        icon={<FaEnvelope className={iconClass} />}
-        label="Send Us a Message"
-        detail={email}
-        url="mailto:info@procareptgroup.com"
-      />
+        <div className={dividerClass}></div>
+        <NavDetailEntry
+          icon={<FaEnvelope className={iconClass} />}
+          label="Send Us a Message"
+          detail={email}
+          url="mailto:info@procareptgroup.com"
+        />
 
-      <div className={dividerClass}></div>
-      <NavDetailEntry
-        icon={<FaClock className={iconClass} />}
-        label="Opening Hours"
-        detail={hours}
-        url=""
-      />
+        <div className={dividerClass}></div>
+        <NavDetailEntry
+          icon={<FaClock className={iconClass} />}
+          label="Opening Hours"
+          detail={hours}
+          url=""
+        />
+      </div>
     </div>
   );
 };
