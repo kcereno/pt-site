@@ -1,3 +1,5 @@
+import { FormDataI } from '@/models/interfaces';
+
 export function validateFormData(formData: FormDataI): boolean {
   for (const key in formData) {
     const value = formData[key as keyof FormDataI].trim();
